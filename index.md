@@ -9,6 +9,7 @@ Catch-Up TV & More est compatible avec la dernière version de Kodi (Kodi 17 Kry
 *[Catch-Up TV & More](https://kodi.tv/addon/plugins-video-add-ons/catch-tv-more) is a video addon for the Kodi media center (former XBMC).*
 *This plugin brings together all the videos of the various services and channels of catch-up TV. Furthermore, this addon allows you to quickly access the videos and content offered by certain websites.*
 
+
 ## Chaînes disponibles — *Available channels*
 ### Angleterre — *United Kingdom*
 ##### TV
@@ -16,7 +17,12 @@ Catch-Up TV & More est compatible avec la dernière version de Kodi (Kodi 17 Kry
 - Sky News *(Replay, Live TV)*
 - STV *(Replay, Live TV)*
 - Quest OD *(Replay)*
-- Heart TV *(Live TV)*
+- Kerrang *(Live TV)*
+- Magic *(Live TV)*
+- Kiss *(Live TV)*
+- The Box *(Live TV)*
+- Box Hits *(Live TV)*
+- Box Upfront *(Live TV)*
 
 ##### Web TV
 - Sky Sports — Sky *(Replay)*
@@ -27,7 +33,7 @@ Catch-Up TV & More est compatible avec la dernière version de Kodi (Kodi 17 Kry
 - RTL-TVI *(Replay)*
 - PLUG RTL *(Replay)*
 - CLUB RTL *(Replay)*
-- Télé MB *(Live TV)*
+- Télé MB *(Replay, Live TV)*
 - RTC Télé Liège *(Replay, Live TV)*
 - TV Lux *(Replay, Live TV)*
 - RTL INFO *(Replay)*
@@ -74,6 +80,7 @@ Catch-Up TV & More est compatible avec la dernière version de Kodi (Kodi 17 Kry
 - Nova *(Live TV)*
 - Mega *(Live TV)*
 - Atreseries *(Live TV)*
+- Atresplayer *(Replay)* - *(Kodi 17.6 and inputstream.adaptive "enable" are required)*
 
 ### Etat Unis d'Amérique — *United State of America*
 ##### TV
@@ -132,13 +139,19 @@ Catch-Up TV & More est compatible avec la dernière version de Kodi (Kodi 17 Kry
 - Polar+ *(Replay)*
 - Virgin Radio TV *(Live TV)*
 - KTO *(Replay, Live TV)*
-- Antenne Réunion *(Live TV)*
-- ViàOccitanie *(Live TV)*
+- Antenne Réunion *(Replay, Live TV)*
+- viàOccitanie *(Live TV)*
 - Ouatch TV *(Replay, Live TV)*
 - Canal 10 *(Live TV)*
 - Fun Radio *(Replay, Live TV)*
 - RTL 2 *(Replay, Live TV)*
 - La Chaîne Météo *(Replay)*
+- J-One *(Replay)*
+- vià93 *(Live TV)*
+- viàGrandParis *(Live TV)*
+- viàATV *(Live TV)*
+- Caledonia *(Replay)*
+- Tébéo *(Replay, Live TV)*
 
 ##### Web TV
 - Stories — 6play *(Replay)*
@@ -151,6 +164,7 @@ Catch-Up TV & More est compatible avec la dernière version de Kodi (Kodi 17 Kry
 - France TV Education — francetv *(Replay)*
 - France TV Slash — francetv *(Replay)*
 - Culturebox — francetv *(Replay)*
+- Jack — mycanal *(Replay)*
 
 ### Internationales — *International*
 ##### TV
@@ -177,6 +191,25 @@ Catch-Up TV & More est compatible avec la dernière version de Kodi (Kodi 17 Kry
 - Paramount Channel *(Live TV)* *(Contents {ES|IT})*
 - Afrique Media *(Replay, Live TV)*
 - Channel NewsAsia *(Replay, Live TV)*
+
+### Italie — *Italia*
+##### TV
+- La7 *(Replay, Live TV)*
+- Rai News 24 *(Live TV)*
+- Rai 1 *(Live TV)*
+- Rai 2 *(Live TV)*
+- Rai 3 *(Live TV)*
+- Rai 4 *(Live TV)*
+- Rai 5 *(Live TV)*
+- Rai Sport *(Live TV)*
+- Rai Movie *(Live TV)*
+- Rai Premium *(Live TV)*
+- Rai Yoyo *(Live TV)*
+- Rai Gulp *(Live TV)*
+- Rai Storia *(Live TV)*
+- Rai Scuola *(Live TV)*
+- La7d *(Replay)*
+- Rai Play *(Replay)*
 
 ### Japon — *Japan*
 ##### TV
@@ -236,6 +269,7 @@ Catch-Up TV & More est compatible avec la dernière version de Kodi (Kodi 17 Kry
 ### Tunisie — *Tunisia*
 - التلفزة التونسية الوطنية 1 *(Live TV)*
 - التلفزة التونسية الوطنية 2 *(Live TV)*
+- نسمة تي في *(Live TV)*
 
 ## Sites internet disponibles — *Available Websites*
 ### Belgique — *Belgium*
@@ -245,6 +279,7 @@ Catch-Up TV & More est compatible avec la dernière version de Kodi (Kodi 17 Kry
 ##### Communauté française — *French Community*
 - Au pays des Têtes à claques <https://www.tetesaclaques.tv/>
 - Office National du Film du Canada <https://www.onf.ca/>
+- Les Argonautes <http://lesargonautes.telequebec.tv>
 
 ##### Communauté anglaise — *English Community*
 - National Film Board Of Canada <https://www.nfb.ca/>
