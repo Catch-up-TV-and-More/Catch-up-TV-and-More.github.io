@@ -1,0 +1,3306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+
+  <title>📺 Chaînes disponibles</title>
+
+  <meta name="author" content="Catch-up TV & More devs" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Catch-up TV & More - Kodi addon that brings together all the videos of the various services and channels of catch-up TV. Furthermore, this plugin allows you to quickly access the videos and content offered by certain websites." href="/fr/feed.xml" />
+
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133471411-1"></script>
+    <script>
+          window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-133471411-1');
+</script>
+
+
+  
+
+  
+
+
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/fr/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/fr/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/fr/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="📺 Chaînes disponibles" />
+  
+
+   
+  <meta property="og:description" content="{% translate_file channels.md %}
+
+">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="https://catch-up-tv-and-more.github.io/channels/" />
+  <link rel="canonical" href="https://catch-up-tv-and-more.github.io/channels/" />
+  
+
+  
+
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="📺 Chaînes disponibles" />
+  
+
+  
+  <meta name="twitter:description" content="{% translate_file channels.md %}
+
+">
+  
+
+  
+
+  
+
+  
+
+</head>
+
+
+  <body>
+
+    
+
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand" href="https://catch-up-tv-and-more.github.io">Catch-up TV & More</a>
+      
+    </div>
+
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/fr/index">Accueil</a>
+
+          </li>
+        
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/fr/installation">🔧 Installation add-on</a>
+
+          </li>
+        
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/fr/channels">📺 Chaînes TV</a>
+
+          </li>
+        
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/fr/websites">🎬 Sites web</a>
+
+          </li>
+        
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/fr/live_tv_installation">▶️ Configuration TV en direct</a>
+
+          </li>
+        
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/fr/faq">❓ FAQ</a>
+
+          </li>
+        
+      
+
+          <!-- Sylvain modif -->
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">🌎 Langue</a>
+            <div class="navlinks-children">
+              
+                
+                  
+                    <a href="/channels/" >en</a>
+                  
+                  
+                  
+                  
+                  
+                  
+                
+              
+                
+              
+            </div>
+          </li>
+          <!-- Fin Sylvain modif -->
+
+
+      </ul>
+    </div>
+
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-heading">
+          <h1>📺 Chaînes disponibles</h1>
+		  
+		  
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <h1 id="sommaire">Sommaire</h1>
+
+<ul>
+  <li><a href="#-belgique">🇧🇪 Belgique</a></li>
+  <li><a href="#-canada">🇨🇦 Canada</a></li>
+  <li><a href="#-suisse">🇨🇭 Suisse</a></li>
+  <li><a href="#-cameroun">🇨🇲 Cameroun</a></li>
+  <li><a href="#-chine">🇨🇳 Chine</a></li>
+  <li><a href="#-espagne">🇪🇸 Espagne</a></li>
+  <li><a href="#-france">🇫🇷 France</a></li>
+  <li><a href="#-italie">🇮🇹 Italie</a></li>
+  <li><a href="#-japon">🇯🇵 Japon</a></li>
+  <li><a href="#-pays-bas">🇳🇱 Pays-Bas</a></li>
+  <li><a href="#-pologne">🇵🇱 Pologne</a></li>
+  <li><a href="#-tunisie">🇹🇳 Tunisie</a></li>
+  <li><a href="#-angleterre">🇬🇧 Angleterre</a></li>
+  <li><a href="#-etat-unis-damérique">🇺🇸 Etat Unis d’Amérique</a></li>
+  <li><a href="#-slovénie">🇸🇮 Slovénie</a></li>
+  <li><a href="#-éthiopie">🇪🇹 Éthiopie</a></li>
+  <li><a href="#-internationales">🌍 Internationales</a></li>
+</ul>
+
+<hr />
+
+<h1 id="légende">Légende</h1>
+
+<ul>
+  <li>✅ : Disponible dans la version release du plugin</li>
+  <li>🔧 : Disponible dans la version bêta du plugin</li>
+  <li>❌ : Non disponible</li>
+  <li>💀 : Chaîne fermée</li>
+</ul>
+
+<hr />
+
+<h1 id="-belgique">🇧🇪 Belgique</h1>
+
+<h3 id="-tv-communauté-française">📺 TV Communauté française</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/auvio.png" alt="rtbf" /></td>
+      <td style="text-align: center">RTBF Auvio</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/rtltvi.png" alt="rtltvi" /></td>
+      <td style="text-align: center">RTL-TVI</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">Compte RTLPlay nécessaire <a href="https://www.rtlplay.be/">https://www.rtlplay.be/</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/plugrtl.png" alt="plugrtl" /></td>
+      <td style="text-align: center">PLUG RTL</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">Compte RTLPlay nécessaire <a href="https://www.rtlplay.be/">https://www.rtlplay.be/</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/clubrtl.png" alt="clubrtl" /></td>
+      <td style="text-align: center">CLUB RTL</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">Compte RTLPlay nécessaire <a href="https://www.rtlplay.be/">https://www.rtlplay.be/</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/telemb.png" alt="telemb" /></td>
+      <td style="text-align: center">Télé MB</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/rtc.png" alt="rtc" /></td>
+      <td style="text-align: center">RTC Télé Liège</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/tvlux.png" alt="tvlux" /></td>
+      <td style="text-align: center">TV Lux</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/rtlinfo.png" alt="rtlinfo" /></td>
+      <td style="text-align: center">RTL INFO</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">Compte RTLPlay nécessaire <a href="https://www.rtlplay.be/">https://www.rtlplay.be/</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/belrtl.png" alt="belrtl" /></td>
+      <td style="text-align: center">BEL RTL</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">Compte RTLPlay nécessaire <a href="https://www.rtlplay.be/">https://www.rtlplay.be/</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/contact.png" alt="contact" /></td>
+      <td style="text-align: center">Contact</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">Compte RTLPlay nécessaire <a href="https://www.rtlplay.be/">https://www.rtlplay.be/</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/bx1.png" alt="bx1" /></td>
+      <td style="text-align: center">BX1</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/nrjhitstvbe.png" alt="nrjhitstvbe" /></td>
+      <td style="text-align: center">NRJ Hits TV</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/rtlsport.png" alt="rtlsport" /></td>
+      <td style="text-align: center">RTL Sport</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">Compte RTLPlay nécessaire <a href="https://www.rtlplay.be/">https://www.rtlplay.be/</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/tvcom.png" alt="tvcom" /></td>
+      <td style="text-align: center">TV Com</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/canalc.png" alt="canalc" /></td>
+      <td style="text-align: center">Canal C</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/abxplore.png" alt="abxplore" /></td>
+      <td style="text-align: center">ABXPLORE</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">Compte ABWeb nécessaire <a href="http://www.abweb.com/BIS-TV-Online/Default.aspx">http://www.abweb.com/BIS-TV-Online/Default.aspx</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/ab3.png" alt="ab3" /></td>
+      <td style="text-align: center">AB3</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">Compte ABWeb nécessaire <a href="http://www.abweb.com/BIS-TV-Online/Default.aspx">http://www.abweb.com/BIS-TV-Online/Default.aspx</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/ln24.png" alt="ln24" /></td>
+      <td style="text-align: center">LN24</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/laune.png" alt="laune" /></td>
+      <td style="text-align: center">La Une</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/ladeux.png" alt="ladeux" /></td>
+      <td style="text-align: center">La Deux</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/latrois.png" alt="latrois" /></td>
+      <td style="text-align: center">La Trois</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/actv.png" alt="actv" /></td>
+      <td style="text-align: center">Antenne Centre TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">Aléatoirement le son ne fonctionne pas</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="-tv-communauté-flamande">📺 TV Communauté flamande</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/vrt.png" alt="vrt" /></td>
+      <td style="text-align: center">VRT NU</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">Compte VRT NU nécessaire <a href="https://www.vrt.be/vrtnu/">https://www.vrt.be/vrtnu/</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/een.png" alt="een" /></td>
+      <td style="text-align: center">Eén</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/canvas.png" alt="canvas" /></td>
+      <td style="text-align: center">Canvas</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/ketnet.png" alt="ketnet" /></td>
+      <td style="text-align: center">Ketnet</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="-tv-communauté-allemande">📺 TV Communauté allemande</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/be/brf.png" alt="brf" /></td>
+      <td style="text-align: center">BRF</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h1 id="-canada">🇨🇦 Canada</h1>
+
+<h3 id="-tv-communauté-française-1">📺 TV Communauté française</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ca/tv5unis.png" alt="tv5unis" /></td>
+      <td style="text-align: center">TV5 Unis</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ca/telequebec.png" alt="telequebec" /></td>
+      <td style="text-align: center">Télé-Québec</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ca/tva.png" alt="tva" /></td>
+      <td style="text-align: center">TVA</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ca/icitele.png" alt="icitele" /></td>
+      <td style="text-align: center">ICI Télé</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">Vancouver - Regina - Toronto - Edmonton - Rimouski - Québec - Winnipeg - Moncton - Ottawa - Montréal</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ca/icitoutv.png" alt="icitoutv" /></td>
+      <td style="text-align: center">ICI Tou.TV</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ca/telemag.png" alt="telemag" /></td>
+      <td style="text-align: center">Télé-Mag</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ca/noovo.png" alt="noovo" /></td>
+      <td style="text-align: center">NOOVO</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ca/vtele.png" alt="vtele" /></td>
+      <td style="text-align: center">V Télé</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ca/lcn.png" alt="lcn" /></td>
+      <td style="text-align: center">LCN</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ca/yoopa.png" alt="yoopa" /></td>
+      <td style="text-align: center">Yoopa</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="-tv-communauté-anglaise">📺 TV Communauté anglaise</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ca/ntvca.png" alt="ntvca" /></td>
+      <td style="text-align: center">NTV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ca/cbc.png" alt="cbc" /></td>
+      <td style="text-align: center">CBC</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">Ottawa - Montreal - Charlottetown - Fredericton - Halifax - Windsor - Yellowknife - Winnipeg - Regina - Calgary - Edmonton - Vancouver - Toronto - St. John’s</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h1 id="-suisse">🇨🇭 Suisse</h1>
+
+<h3 id="-tv-communauté-française-2">📺 TV Communauté française</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ch/rts.png" alt="rts" /></td>
+      <td style="text-align: center">RTS</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ch/rtsun.png" alt="rtsun" /></td>
+      <td style="text-align: center">RTS Un</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ch/rtsdeux.png" alt="rtsdeux" /></td>
+      <td style="text-align: center">RTS Deux</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ch/rtsinfo.png" alt="rtsinfo" /></td>
+      <td style="text-align: center">RTS Info</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ch/rtscouleur3.png" alt="rtscouleur3" /></td>
+      <td style="text-align: center">RTS Couleur 3</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ch/rougetv.png" alt="rougetv" /></td>
+      <td style="text-align: center">Rouge TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ch/tvm3.png" alt="tvm3" /></td>
+      <td style="text-align: center">TVM3</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ch/becurioustv.png" alt="becurioustv" /></td>
+      <td style="text-align: center">BeCurious TV</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ch/lemanbleu.png" alt="lemanbleu" /></td>
+      <td style="text-align: center">Léman Bleu</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="-tv-communauté-italienne">📺 TV Communauté italienne</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ch/rsi.png" alt="rsi" /></td>
+      <td style="text-align: center">RSI</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ch/rsila1.png" alt="rsila1" /></td>
+      <td style="text-align: center">RSI La 1</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ch/rsila2.png" alt="rsila2" /></td>
+      <td style="text-align: center">RSI La 2</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ch/teleticino.png" alt="teleticino" /></td>
+      <td style="text-align: center">Teleticino</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="-tv-communauté-allemande-1">📺 TV Communauté allemande</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ch/srf.png" alt="srf" /></td>
+      <td style="text-align: center">SRF</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ch/srf1.png" alt="srf1" /></td>
+      <td style="text-align: center">SRF 1</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ch/srfzwei.png" alt="srfzwei" /></td>
+      <td style="text-align: center">SRF Zwei</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ch/srfinfo.png" alt="srfinfo" /></td>
+      <td style="text-align: center">SRF Info</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ch/telem1.png" alt="telem1" /></td>
+      <td style="text-align: center">Tele M1</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="-tv-communauté-romanche">📺 TV Communauté romanche</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ch/rtr.png" alt="rtr" /></td>
+      <td style="text-align: center">RTR</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ch/rtr.png" alt="rtraufsrf1" /></td>
+      <td style="text-align: center">RTR auf SRF 1</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ch/rtr.png" alt="rtraufsrf2" /></td>
+      <td style="text-align: center">RTR auf SRF 2</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ch/rtr.png" alt="rtraufinfo" /></td>
+      <td style="text-align: center">RTR auf Info</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="-web-tv">🌍 Web TV</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/ch/swissinfo.png" alt="swissinfo" /></td>
+      <td style="text-align: center">SWISSINFO</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h1 id="-cameroun">🇨🇲 Cameroun</h1>
+
+<h3 id="-tv">📺 TV</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/cm/crtv.png" alt="crtv" /></td>
+      <td style="text-align: center">CRTV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/cm/crtvnews.png" alt="crtvnews" /></td>
+      <td style="text-align: center">CRTV News</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h1 id="-chine">🇨🇳 Chine</h1>
+
+<h3 id="-tv-1">📺 TV</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/cn/cctv1.png" alt="cctv1" /></td>
+      <td style="text-align: center">CCTV-1 综合</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/cn/cctv2.png" alt="cctv2" /></td>
+      <td style="text-align: center">CCTV-2 财经</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/cn/cctv3.png" alt="cctv3" /></td>
+      <td style="text-align: center">CCTV-3 综艺</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/cn/cctv4.png" alt="cctv4" /></td>
+      <td style="text-align: center">CCTV-4 中文国际（亚）</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/cn/cctveurope.png" alt="cctveurope" /></td>
+      <td style="text-align: center">CCTV-4 中文国际（欧）</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/cn/cctvamerica.png" alt="cctvamerica" /></td>
+      <td style="text-align: center">CCTV-4 中文国际（美）</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/cn/cctv5.png" alt="cctv5" /></td>
+      <td style="text-align: center">CCTV-5 体育</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/cn/cctv5plus.png" alt="cctv5plus" /></td>
+      <td style="text-align: center">CCTV-5+ 体育赛事</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/cn/cctv6.png" alt="cctv6" /></td>
+      <td style="text-align: center">CCTV-6 电影</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/cn/cctv7.png" alt="cctv7" /></td>
+      <td style="text-align: center">CCTV-7 军事农业</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/cn/cctv8.png" alt="cctv8" /></td>
+      <td style="text-align: center">CCTV-8 电视剧</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/cn/cctvjilu.png" alt="cctvjilu" /></td>
+      <td style="text-align: center">CCTV-9 纪录</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/cn/cctv10.png" alt="cctv10" /></td>
+      <td style="text-align: center">CCTV-10 科教</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/cn/cctv11.png" alt="cctv11" /></td>
+      <td style="text-align: center">CCTV-11 戏曲</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/cn/cctv12.png" alt="cctv12" /></td>
+      <td style="text-align: center">CCTV-12 社会与法</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/cn/cctv13.png" alt="cctv13" /></td>
+      <td style="text-align: center">CCTV-13 新闻</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/cn/cctvchild.png" alt="cctvchild" /></td>
+      <td style="text-align: center">CCTV-14 少儿</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/cn/cctv15.png" alt="cctv15" /></td>
+      <td style="text-align: center">CCTV-15 音乐</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h1 id="-espagne">🇪🇸 Espagne</h1>
+
+<h3 id="-tv-2">📺 TV</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/es/telecinco.png" alt="telecinco" /></td>
+      <td style="text-align: center">Telecinco</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/es/cuatro.png" alt="cuatro" /></td>
+      <td style="text-align: center">Cuatro</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/es/fdf.png" alt="fdf" /></td>
+      <td style="text-align: center">Factoria de Ficcion</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/es/boing.png" alt="boing" /></td>
+      <td style="text-align: center">Boing</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/es/energy.png" alt="energy" /></td>
+      <td style="text-align: center">Energy TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/es/divinity.png" alt="divinity" /></td>
+      <td style="text-align: center">Divinity</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/es/bemad.png" alt="bemad" /></td>
+      <td style="text-align: center">Be Mad</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/es/realmadridtv.png" alt="realmadridtv" /></td>
+      <td style="text-align: center">Realmadrid TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">ES - EN</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/es/paramountchannel_es.png" alt="paramountchannel_es" /></td>
+      <td style="text-align: center">Paramount Channel (ES)</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h1 id="-france">🇫🇷 France</h1>
+
+<h3 id="-tv-3">📺 TV</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/tf1.png" alt="tf1" /></td>
+      <td style="text-align: center">TF1</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/france2.png" alt="france2" /></td>
+      <td style="text-align: center">France 2</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/france3.png" alt="france3" /></td>
+      <td style="text-align: center">France 3</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/canalplus.png" alt="canalplus" /></td>
+      <td style="text-align: center">Canal +</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/france5.png" alt="france5" /></td>
+      <td style="text-align: center">France 5</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/m6.png" alt="m6" /></td>
+      <td style="text-align: center">M6</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">Compte 6play nécessaire <a href="https://www.6play.fr/">https://www.6play.fr/</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/c8.png" alt="c8" /></td>
+      <td style="text-align: center">C8</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/w9.png" alt="w9" /></td>
+      <td style="text-align: center">W9</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">Compte 6play nécessaire <a href="https://www.6play.fr/">https://www.6play.fr/</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/tmc.png" alt="tmc" /></td>
+      <td style="text-align: center">TMC</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/tfx.png" alt="tfx" /></td>
+      <td style="text-align: center">TFX</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/nrj12.png" alt="nrj12" /></td>
+      <td style="text-align: center">NRJ 12</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">Compte NRJ nécessaire pour le direct <a href="https://www.nrj-play.fr/">https://www.nrj-play.fr/</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/france4.png" alt="france4" /></td>
+      <td style="text-align: center">France 4</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/bfmtv.png" alt="bfmtv" /></td>
+      <td style="text-align: center">BFM TV</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/cnews.png" alt="cnews" /></td>
+      <td style="text-align: center">CNews</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/cstar.png" alt="cstar" /></td>
+      <td style="text-align: center">CStar</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/gulli.png" alt="gulli" /></td>
+      <td style="text-align: center">Gulli</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/franceo.png" alt="franceo" /></td>
+      <td style="text-align: center">France Ô</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/tf1seriesfilms.png" alt="tf1seriesfilms" /></td>
+      <td style="text-align: center">TF1 Séries Films</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/lequipe.png" alt="lequipe" /></td>
+      <td style="text-align: center">L’Équipe</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/6ter.png" alt="6ter" /></td>
+      <td style="text-align: center">6ter</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">Compte 6play nécessaire <a href="https://www.6play.fr/">https://www.6play.fr/</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/rmcstory.png" alt="rmcstory" /></td>
+      <td style="text-align: center">RMC Story</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/cherie25.png" alt="cherie25" /></td>
+      <td style="text-align: center">Chérie 25</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">Compte NRJ nécessaire pour le direct <a href="https://www.nrj-play.fr/">https://www.nrj-play.fr/</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/lci.png" alt="lci" /></td>
+      <td style="text-align: center">LCI</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/la1ere.png" alt="la1ere" /></td>
+      <td style="text-align: center">La 1ère</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">Guadeloupe - Guyane - Martinique - Mayotte - Nouvelle Calédonie - Polynésie - Réunion - St-Pierre et Miquelon - Wallis et Futuna - Outre-mer</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/franceinfo.png" alt="franceinfo" /></td>
+      <td style="text-align: center">France Info</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/bfmbusiness.png" alt="bfmbusiness" /></td>
+      <td style="text-align: center">BFM Business</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/rmc.png" alt="rmc" /></td>
+      <td style="text-align: center">RMC (RMC Sport)</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/rmcdecouverte.png" alt="rmcdecouverte" /></td>
+      <td style="text-align: center">RMC Découverte</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/lcp.png" alt="lcp" /></td>
+      <td style="text-align: center">LCP Assemblée Nationale</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/publicsenat.png" alt="publicsenat" /></td>
+      <td style="text-align: center">Public Sénat</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/france3.png" alt="france3regions" /></td>
+      <td style="text-align: center">France 3 Régions</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">Alpes - Alsace - Aquitaine - Auvergne - Bourgogne - Bretagne - Centre-Val de Loire - Chapagne-Ardenne - Corse - Côte d’Azur - Franche-Compté - Languedoc-Roussillon - Limousin - Lorraine - Midi-Pyrénées - Nord-Pas-de-Calais - Basse-Normandie - Haute-Normandie - Paris Île-de-France - Pays de la Loire - Picardie - Poitou-Charentes - Provence-Alpes - Rhône-Alpes - Nouvelle-Aquitaine</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/histoire.png" alt="histoire" /></td>
+      <td style="text-align: center">Histoire</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/tvbreizh.png" alt="tvbreizh" /></td>
+      <td style="text-align: center">TV Breizh</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/ushuaiatv.png" alt="ushuaiatv" /></td>
+      <td style="text-align: center">Ushuaïa TV</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/seasons.png" alt="seasons" /></td>
+      <td style="text-align: center">Seasons</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/comedie.png" alt="comedie" /></td>
+      <td style="text-align: center">Comédie +</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/leschainesplanete.png" alt="leschainesplanete" /></td>
+      <td style="text-align: center">Les chaînes planètes +</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/golfplus.png" alt="golfplus" /></td>
+      <td style="text-align: center">Golf +</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/cineplus.png" alt="cineplus" /></td>
+      <td style="text-align: center">Ciné +</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/infosportplus.png" alt="infosportplus" /></td>
+      <td style="text-align: center">INFOSPORT+</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/gameone.png" alt="gameone" /></td>
+      <td style="text-align: center">Game One</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/gong.png" alt="gong" /></td>
+      <td style="text-align: center">Gong</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/bfmparis.png" alt="bfmparis" /></td>
+      <td style="text-align: center">BFM Paris</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/polarplus.png" alt="polarplus" /></td>
+      <td style="text-align: center">Polar+</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/kto.png" alt="kto" /></td>
+      <td style="text-align: center">KTO</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/antennereunion.png" alt="antennereunion" /></td>
+      <td style="text-align: center">Antenne Réunion</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/viaoccitanie.png" alt="viaoccitanie" /></td>
+      <td style="text-align: center">viàOccitanie</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/ouatchtv.png" alt="ouatchtv" /></td>
+      <td style="text-align: center">Ouatch TV</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/funradio.png" alt="funradio" /></td>
+      <td style="text-align: center">Fun Radio</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/rtl2.png" alt="rtl2" /></td>
+      <td style="text-align: center">RTL 2</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/lachainemeteo.png" alt="lachainemeteo" /></td>
+      <td style="text-align: center">La Chaîne Météo</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/via93.png" alt="via93" /></td>
+      <td style="text-align: center">vià93</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/viagrandparis.png" alt="viagrandparis" /></td>
+      <td style="text-align: center">viàGrandParis</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/viaatv.png" alt="viaatv" /></td>
+      <td style="text-align: center">viàATV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/caledonia.png" alt="caledonia" /></td>
+      <td style="text-align: center">Caledonia</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/tebeo.png" alt="tebeo" /></td>
+      <td style="text-align: center">Tébéo</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/mb.png" alt="mb" /></td>
+      <td style="text-align: center">M6 Boutique</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/vialmtv.png" alt="vialmtv" /></td>
+      <td style="text-align: center">viàLMtv Sarthe</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/viamirabelle.png" alt="viamirabelle" /></td>
+      <td style="text-align: center">viàMirabelle</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/viavosges.png" alt="viavosges" /></td>
+      <td style="text-align: center">viàVosges</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/tl7.png" alt="tl7" /></td>
+      <td style="text-align: center">Télévision Loire 7</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/luckyjack.png" alt="luckyjack" /></td>
+      <td style="text-align: center">Lucky Jack</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">Compte ABWeb nécessaire <a href="http://www.abweb.com/BIS-TV-Online/Default.aspx">http://www.abweb.com/BIS-TV-Online/Default.aspx</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/mblivetv.png" alt="mblivetv" /></td>
+      <td style="text-align: center">Mont Blanc Live TV</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">💀</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/tv8montblanc.png" alt="tv8montblanc" /></td>
+      <td style="text-align: center">8 Mont-Blanc</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/luxetv.png" alt="luxetv" /></td>
+      <td style="text-align: center">Luxe.TV</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/alsace20.png" alt="alsace20" /></td>
+      <td style="text-align: center">Alsace 20</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/tvpifr.png" alt="tvpifr" /></td>
+      <td style="text-align: center">TVPI télévision d’ici</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/cliquetv.png" alt="cliquetv" /></td>
+      <td style="text-align: center">Clique TV</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/piwiplus.png" alt="piwiplus" /></td>
+      <td style="text-align: center">Piwi +</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/teletoonplus.png" alt="teletoonplus" /></td>
+      <td style="text-align: center">TéléToon +</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/paramountchannel_fr.png" alt="paramountchannel_fr" /></td>
+      <td style="text-align: center">Paramount Channel (FR)</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/mtv_fr.png" alt="mtv_fr" /></td>
+      <td style="text-align: center">MTV (FR)</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/idf1.png" alt="idf1" /></td>
+      <td style="text-align: center">IDF 1</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/azurtv.png" alt="azurtv" /></td>
+      <td style="text-align: center">Azur TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/biptv.png" alt="biptv" /></td>
+      <td style="text-align: center">BIP TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/bfmlille.png" alt="bfmlille" /></td>
+      <td style="text-align: center">BFM Lille</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/jone.png" alt="j_one" /></td>
+      <td style="text-align: center">J-One</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/bfmgrandlittoral.png" alt="bfmlittorral" /></td>
+      <td style="text-align: center">BFM Littoral</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/lachainenormande.png" alt="lachainenormande" /></td>
+      <td style="text-align: center">La Chaine Normande</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/sportenfrance.png" alt="sportenfrance" /></td>
+      <td style="text-align: center">Sport en France</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/provenceazurtv.png" alt="provenceazurtv" /></td>
+      <td style="text-align: center">Provence Azur TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/tebesud.png" alt="tebesud" /></td>
+      <td style="text-align: center">TébéSud</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/viamatele.png" alt="viamatele" /></td>
+      <td style="text-align: center">viàMaTélé</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/telegrenoble.png" alt="telegrenoble" /></td>
+      <td style="text-align: center">TéléGrenoble</td>
+      <td style="text-align: center">🔧</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/telenantes.png" alt="telenantes" /></td>
+      <td style="text-align: center">TéléNantes</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/bfmlyon.png" alt="bfmlyon" /></td>
+      <td style="text-align: center">BFM Lyon</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/tlc.png" alt="tlc" /></td>
+      <td style="text-align: center">TLC</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/tvvendee.png" alt="tvvendee" /></td>
+      <td style="text-align: center">TV Vendée</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/tv7bordeaux.png" alt="tv7bordeaux" /></td>
+      <td style="text-align: center">TV7 Bordeaux</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/tvt.png" alt="tvt" /></td>
+      <td style="text-align: center">TVT Val de Loire</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/tvr.png" alt="tvr" /></td>
+      <td style="text-align: center">TVR</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/weo.png" alt="weo" /></td>
+      <td style="text-align: center">Wéo TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/dicitv.png" alt="dicitv" /></td>
+      <td style="text-align: center">DiCi TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/franceinter.png" alt="franceinter" /></td>
+      <td style="text-align: center">France Inter</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/rtl.png" alt="rtl" /></td>
+      <td style="text-align: center">RTL</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/europe1.png" alt="europe1" /></td>
+      <td style="text-align: center">Europe 1</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/01net.png" alt="01net" /></td>
+      <td style="text-align: center">01Net TV</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">🔧</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="-web-tv-1">🌍 Web TV</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/francetvsport.png" alt="francetvsport" /></td>
+      <td style="text-align: center">France TV Sport - francetv</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/lumni.png" alt="lumni" /></td>
+      <td style="text-align: center">Lumni — francetv</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/slash.png" alt="slash" /></td>
+      <td style="text-align: center">France TV Slash — francetv</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/jack.png" alt="jack" /></td>
+      <td style="text-align: center">Jack — mycanal</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/francetvspectaclesetculture.png" alt="francetvspectaclesetculture" /></td>
+      <td style="text-align: center">Spectacles et Culture - francetv</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/okoo.png" alt="okoo" /></td>
+      <td style="text-align: center">Okoo - francetv</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/fr/m6courses.png" alt="m6courses" /></td>
+      <td style="text-align: center">M6 Courses - 6play</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">Compte 6play nécessaire <a href="https://www.6play.fr/">https://www.6play.fr/</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h1 id="-italie">🇮🇹 Italie</h1>
+
+<h3 id="-tv-4">📺 TV</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/it/la7.png" alt="la7" /></td>
+      <td style="text-align: center">La7</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/it/rainews24.png" alt="rainews24" /></td>
+      <td style="text-align: center">Rai News 24</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/it/rai1.png" alt="rai1" /></td>
+      <td style="text-align: center">Rai 1</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/it/rai2.png" alt="rai2" /></td>
+      <td style="text-align: center">Rai 2</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/it/rai3.png" alt="rai3" /></td>
+      <td style="text-align: center">Rai 3</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/it/rai4.png" alt="rai4" /></td>
+      <td style="text-align: center">Rai 4</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/it/rai5.png" alt="rai5" /></td>
+      <td style="text-align: center">Rai 5</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/it/raisportpiuhd.png" alt="raisportpiuhd" /></td>
+      <td style="text-align: center">Rai Sport</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/it/raimovie.png" alt="raimovie" /></td>
+      <td style="text-align: center">Rai Movie</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/it/raipremium.png" alt="raipremium" /></td>
+      <td style="text-align: center">Rai Premium</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/it/raiyoyo.png" alt="raiyoyo" /></td>
+      <td style="text-align: center">Rai Yoyo</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/it/raigulp.png" alt="raigulp" /></td>
+      <td style="text-align: center">Rai Gulp</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/it/raistoria.png" alt="raistoria" /></td>
+      <td style="text-align: center">Rai Storia</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/it/raiscuola.png" alt="raiscuola" /></td>
+      <td style="text-align: center">Rai Scuola</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/it/la7d.png" alt="la7d" /></td>
+      <td style="text-align: center">La7d</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/it/raiplay.png" alt="raiplay" /></td>
+      <td style="text-align: center">Rai Play</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/it/paramountchannel_it.png" alt="paramountchannel_it" /></td>
+      <td style="text-align: center">Paramount Channel (IT)</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h1 id="-japon">🇯🇵 Japon</h1>
+
+<h3 id="-tv-5">📺 TV</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/jp/ntv.png" alt="ntv" /></td>
+      <td style="text-align: center">日テレ</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/jp/ex.png" alt="ex" /></td>
+      <td style="text-align: center">テレビ朝日</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/jp/tbs.png" alt="tbs" /></td>
+      <td style="text-align: center">TBSテレビ</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/jp/tx.png" alt="tx" /></td>
+      <td style="text-align: center">テレビ東京</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/jp/mbs.png" alt="mbs" /></td>
+      <td style="text-align: center">MBSテレビ</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/jp/abc.png" alt="abc" /></td>
+      <td style="text-align: center">朝日放送株式会社</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/jp/ytv.png" alt="ytv" /></td>
+      <td style="text-align: center">読売テレビ</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/jp/ntvnews24.png" alt="ntvnews24" /></td>
+      <td style="text-align: center">日テレ News24</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/jp/japanetshoppingdx.png" alt="japanetshoppingdx" /></td>
+      <td style="text-align: center">ジャパネットチャンネルDX</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/jp/ktv.png" alt="ktv" /></td>
+      <td style="text-align: center">関西テレビ</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/jp/weathernewsjp.png" alt="weathernewsjp" /></td>
+      <td style="text-align: center">株式会社ウェザーニューズ</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/jp/tvo.png" alt="tvo" /></td>
+      <td style="text-align: center">テレビ大阪株式会社</td>
+      <td style="text-align: center">🔧</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/jp/nhk.png" alt="nhk" /></td>
+      <td style="text-align: center">NHK</td>
+      <td style="text-align: center">🔧</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="-web-tv-2">🌍 Web TV</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/jp/nhknews.png" alt="nhknews" /></td>
+      <td style="text-align: center">NHK ニュース</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/jp/nhklifestyle.png" alt="nhklifestyle" /></td>
+      <td style="text-align: center">NHKらいふ</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/jp/tbsnews.png" alt="tbsnews" /></td>
+      <td style="text-align: center">TBS ニュース</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h1 id="-pays-bas">🇳🇱 Pays-Bas</h1>
+
+<h3 id="-tv-6">📺 TV</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/nl/npo1.png" alt="npo1" /></td>
+      <td style="text-align: center">NPO 1</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/nl/npo2.png" alt="npo2" /></td>
+      <td style="text-align: center">NPO 2</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/nl/npozapp.png" alt="npozapp" /></td>
+      <td style="text-align: center">NPO Zapp</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/nl/npo1extra.png" alt="npo1extra" /></td>
+      <td style="text-align: center">NPO 1 Extra</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/nl/npo2extra.png" alt="npo2extra" /></td>
+      <td style="text-align: center">NPO 2 Extra</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/nl/npozappelinextra.png" alt="npozappelinextra" /></td>
+      <td style="text-align: center">NPO Zappelin Extra</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/nl/nponieuws.png" alt="nponieuws" /></td>
+      <td style="text-align: center">NPO Nieuws</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/nl/npopolitiek.png" alt="npopolitiek" /></td>
+      <td style="text-align: center">NPO Politiek</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/nl/npostart.png" alt="npostart" /></td>
+      <td style="text-align: center">NPO Start</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/nl/at5.png" alt="at5" /></td>
+      <td style="text-align: center">AT5</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h1 id="-pologne">🇵🇱 Pologne</h1>
+
+<h3 id="-tv-7">📺 TV</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/pl/tvpinfo.png" alt="tvpinfo" /></td>
+      <td style="text-align: center">TVP Info</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/pl/tvppolonia.png" alt="tvppolonia" /></td>
+      <td style="text-align: center">TVP Polonia</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/pl/tvp3.png" alt="tvp3" /></td>
+      <td style="text-align: center">TVP 3</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">Białystok - Bydgoszcz - Gdańsk - Gorzów Wielkopolski - Katowice - Kielce - Kraków - Lublin - Łódź - Olsztyn - Opole - Poznań - Rzeszów - Szczecin - Warszawa - Wrocław</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/pl/tvppolandin.png" alt="tvppolandin" /></td>
+      <td style="text-align: center">TVP Poland IN</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h1 id="-tunisie">🇹🇳 Tunisie</h1>
+
+<h3 id="-tv-8">📺 TV</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/tn/watania1.png" alt="watania1" /></td>
+      <td style="text-align: center">التلفزة التونسية الوطنية 1</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/tn/watania2.png" alt="watania2" /></td>
+      <td style="text-align: center">التلفزة التونسية الوطنية 2</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/tn/nessma.png" alt="nessma" /></td>
+      <td style="text-align: center">نسمة تي في</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h1 id="-angleterre">🇬🇧 Angleterre</h1>
+
+<h3 id="-tv-9">📺 TV</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/uk/blaze.png" alt="blaze" /></td>
+      <td style="text-align: center">Blaze</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/uk/skynews.png" alt="skynews" /></td>
+      <td style="text-align: center">Sky News</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/uk/stv.png" alt="stv" /></td>
+      <td style="text-align: center">STV</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/uk/questod.png" alt="questod" /></td>
+      <td style="text-align: center">Quest OD</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/uk/kerrang.png" alt="kerrang" /></td>
+      <td style="text-align: center">Kerrang</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/uk/magic.png" alt="magic" /></td>
+      <td style="text-align: center">Magic</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/uk/kiss.png" alt="kiss" /></td>
+      <td style="text-align: center">Kiss</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/uk/thebox.png" alt="thebox" /></td>
+      <td style="text-align: center">The Box</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/uk/boxhits.png" alt="boxhits" /></td>
+      <td style="text-align: center">Box Hits</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/uk/boxupfront.png" alt="boxupfront" /></td>
+      <td style="text-align: center">Box Upfront</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/uk/uktvplay.png" alt="uktvplay" /></td>
+      <td style="text-align: center">UKTV Play</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/uk/questtv.png" alt="questtv" /></td>
+      <td style="text-align: center">Quest TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/uk/questred.png" alt="questred" /></td>
+      <td style="text-align: center">Quest RED</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/uk/bristoltv.png" alt="bristoltv" /></td>
+      <td style="text-align: center">Bristol TV</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/uk/drama.png" alt="drama" /></td>
+      <td style="text-align: center">Drama</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">Compte UKTVPlay nécessaire <a href="https://uktvplay.uktv.co.uk/">https://uktvplay.uktv.co.uk/</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/uk/dave.png" alt="dave" /></td>
+      <td style="text-align: center">Dave</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">Compte UKTVPlay nécessaire <a href="https://uktvplay.uktv.co.uk/">https://uktvplay.uktv.co.uk/</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/uk/yesterday.png" alt="yesterday" /></td>
+      <td style="text-align: center">Yesterday</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">Compte UKTVPlay nécessaire <a href="https://uktvplay.uktv.co.uk/">https://uktvplay.uktv.co.uk/</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/uk/freesports.png" alt="freesports" /></td>
+      <td style="text-align: center">Free Sports</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/uk/stv_plusone.png" alt="stv_plusone" /></td>
+      <td style="text-align: center">STV+1</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/uk/edgesport.png" alt="edgesport" /></td>
+      <td style="text-align: center">EDGE Sport</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/uk/thepetcollective.png" alt="thepetcollective" /></td>
+      <td style="text-align: center">The Pet Collective</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">🔧</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/uk/failarmy.png" alt="failarmy" /></td>
+      <td style="text-align: center">Fail Army</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">🔧</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/uk/qello.png" alt="qello" /></td>
+      <td style="text-align: center">Qello</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">🔧</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/uk/dust.png" alt="dust" /></td>
+      <td style="text-align: center">DUST</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">🔧</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="-web-tv-3">🌍 Web TV</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/uk/skysports.png" alt="skysports" /></td>
+      <td style="text-align: center">Sky Sport</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h1 id="-etat-unis-damérique">🇺🇸 Etat Unis d’Amérique</h1>
+
+<h3 id="-tv-10">📺 TV</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/us/cbsnews.png" alt="cbsnews" /></td>
+      <td style="text-align: center">CBS News</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/us/tbd.png" alt="tbd" /></td>
+      <td style="text-align: center">TBD</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/us/nycmedia.png" alt="nycmedia" /></td>
+      <td style="text-align: center">NYC Media</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/us/abcnews.png" alt="abcnews" /></td>
+      <td style="text-align: center">ABC News</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/us/pbskids.png" alt="pbskids" /></td>
+      <td style="text-align: center">PBS Kids</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h1 id="-slovénie">🇸🇮 Slovénie</h1>
+
+<h3 id="-tv-11">📺 TV</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/si/slo1.png" alt="slo1" /></td>
+      <td style="text-align: center">TV SLO 1</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/si/slo2.png" alt="slo2" /></td>
+      <td style="text-align: center">TV SLO 2</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/si/slo3.png" alt="slo3" /></td>
+      <td style="text-align: center">TV SLO 3</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/si/koper.png" alt="koper" /></td>
+      <td style="text-align: center">Koper</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/si/maribor.png" alt="maribor" /></td>
+      <td style="text-align: center">Maribor</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/si/mmc.png" alt="mmc" /></td>
+      <td style="text-align: center">MMC</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h1 id="-éthiopie">🇪🇹 Éthiopie</h1>
+
+<h3 id="-tv-12">📺 TV</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/ectv.png" alt="ectv" /></td>
+      <td style="text-align: center">ECTV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/amma.png" alt="amma" /></td>
+      <td style="text-align: center">Amhara TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/fbctv.png" alt="fbctv" /></td>
+      <td style="text-align: center">Fana TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/walta.png" alt="walta" /></td>
+      <td style="text-align: center">Walta TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/etvz.png" alt="etvz" /></td>
+      <td style="text-align: center">EBC ZENA</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/etvm.png" alt="etvm" /></td>
+      <td style="text-align: center">EBC MEZINAGNA</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/etvq.png" alt="etvq" /></td>
+      <td style="text-align: center">EBC QUANQUAWOCH</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/ltv.png" alt="ltv" /></td>
+      <td style="text-align: center">LTV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/arts.png" alt="arts" /></td>
+      <td style="text-align: center">ARTS TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/moe.png" alt="moe" /></td>
+      <td style="text-align: center">MoE</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/nahoo.png" alt="nahoo" /></td>
+      <td style="text-align: center">Nahoo TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/obn.png" alt="obn" /></td>
+      <td style="text-align: center">OBN</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/obs.png" alt="obs" /></td>
+      <td style="text-align: center">OBS</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/tigrai.png" alt="tigrai" /></td>
+      <td style="text-align: center">Tigrai TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/jtv.png" alt="jtv" /></td>
+      <td style="text-align: center">JTV ETHIOPIA</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/esat.png" alt="esat" /></td>
+      <td style="text-align: center">ESAT</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/omn.png" alt="omn" /></td>
+      <td style="text-align: center">OMN</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/aleph.png" alt="aleph" /></td>
+      <td style="text-align: center">Aleph TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/bisrat.png" alt="bisrat" /></td>
+      <td style="text-align: center">Bisrat TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/onn.png" alt="onn" /></td>
+      <td style="text-align: center">ONN TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/dws.png" alt="dws" /></td>
+      <td style="text-align: center">DW TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/adis.png" alt="adis" /></td>
+      <td style="text-align: center">Addis TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/estv.png" alt="estv" /></td>
+      <td style="text-align: center">ES TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/south.png" alt="south" /></td>
+      <td style="text-align: center">Southern TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/eritr.png" alt="eritr" /></td>
+      <td style="text-align: center">Eritrea TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/afri.png" alt="afri" /></td>
+      <td style="text-align: center">Afrihealth</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/asham.png" alt="asham" /></td>
+      <td style="text-align: center">Asham TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/ahadu.png" alt="ahadu" /></td>
+      <td style="text-align: center">Ahadu TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/balage.png" alt="balage" /></td>
+      <td style="text-align: center">Balageru</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/ava.png" alt="ava" /></td>
+      <td style="text-align: center">AVA TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/asrat.png" alt="asrat" /></td>
+      <td style="text-align: center">ASRAT MEDIA</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/holys.png" alt="holys" /></td>
+      <td style="text-align: center">Holy Spirit TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/et/gloryg.png" alt="gloryg" /></td>
+      <td style="text-align: center">Glory of GOD TV</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h1 id="-internationales">🌍 Internationales</h1>
+
+<h3 id="-tv-13">📺 TV</h3>
+
+<!-- Logo - Name - Replay? - Live TV? - Remark -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Logo</th>
+      <th style="text-align: center">Nom</th>
+      <th style="text-align: center">Replay TV</th>
+      <th style="text-align: center">Direct TV</th>
+      <th style="text-align: center">Remarque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/wo/tv5mondeafrique.png" alt="tv5mondeafrique" /></td>
+      <td style="text-align: center">TV5Monde Afrique</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/wo/arte.png" alt="arte" /></td>
+      <td style="text-align: center">Arte</td>
+      <td style="text-align: center">✅ (FR - DE - EN - ES - PL - IT)</td>
+      <td style="text-align: center">✅ (FR - DE)</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/wo/euronews.png" alt="euronews" /></td>
+      <td style="text-align: center">Euronews</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">FR - EN - AR - DE - IT - ES - PT - RU - TR - FA - GR - HU</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/wo/france24.png" alt="france24" /></td>
+      <td style="text-align: center">France 24</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">FR - EN - AR - ES</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/wo/nhkworld.png" alt="nhkworld" /></td>
+      <td style="text-align: center">NHK World</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">Outside Japan - In Japan</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/wo/tv5monde.png" alt="tv5monde" /></td>
+      <td style="text-align: center">TV5Monde</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/wo/tv5mondeinfo.png" alt="tv5mondeinfo" /></td>
+      <td style="text-align: center">TV5Monde Info</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/wo/tv5mondefbs.png" alt="tv5mondefbs" /></td>
+      <td style="text-align: center">TV5Monde France Belgique Suisse</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/wo/tivi5monde.png" alt="tivi5monde" /></td>
+      <td style="text-align: center">Tivi 5Monde</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/wo/bvn.png" alt="bvn" /></td>
+      <td style="text-align: center">BVN</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/wo/icitelevision.png" alt="icitelevision" /></td>
+      <td style="text-align: center">ICI Télévision</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/wo/arirang.png" alt="arirang" /></td>
+      <td style="text-align: center">Arirang (아리랑)</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/wo/dw.png" alt="dw" /></td>
+      <td style="text-align: center">DW</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">EN - AR - DE - ES</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/wo/beinsports.png" alt="beinsports" /></td>
+      <td style="text-align: center">Bein Sports</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/wo/qvc.png" alt="qvc" /></td>
+      <td style="text-align: center">QVC</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">JP - DE - IT - UK - US</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/wo/icirdi.png" alt="icirdi" /></td>
+      <td style="text-align: center">ICI RDI</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/wo/cgtn.png" alt="cgtn" /></td>
+      <td style="text-align: center">CGTN</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">FR - EN - AR - ES - RU</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/wo/cgtndocumentary.png" alt="cgtndocumentary" /></td>
+      <td style="text-align: center">CGTN Documentary</td>
+      <td style="text-align: center">❌</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/wo/afriquemedia.png" alt="afriquemedia" /></td>
+      <td style="text-align: center">Afrique Media</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/wo/channelnewsasia.png" alt="channelnewsasia" /></td>
+      <td style="text-align: center">Channel NewsAsia</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/wo/rt.png" alt="rt" /></td>
+      <td style="text-align: center">RT</td>
+      <td style="text-align: center">✅ (FR - EN)</td>
+      <td style="text-align: center">✅ (FR - EN - AR - ES)</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img style="max-width:50px" src="https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore/raw/master/resource.images.catchuptvandmore/resources/channels/wo/africa24.png" alt="africa24" /></td>
+      <td style="text-align: center">Africa 24</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center">✅</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+	    
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links"><li><a href="mailto:catch.up.tv.and.more@gmail.com" title="Email me"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Email me</span>
+              </a>
+            </li><li><a href="https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">GitHub</span>
+              </a>
+            </li></ul>
+      <p class="copyright text-muted">
+      Catch-up TV & More devs
+      &nbsp;&bull;&nbsp;
+      2020
+
+      
+      &nbsp;&bull;&nbsp;
+      <a href="https://catch-up-tv-and-more.github.io">Catch-up-TV-and-More.github.io</a>
+      
+
+      
+      </p>
+          <!-- Please don't remove this, keep my open source work credited :) -->
+    <p class="theme-by text-muted">
+      Theme by
+      <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+    </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/fr/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/fr/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/fr/js/main.js"></script>
+    
+  
+
+
+  
+  </body>
+</html>

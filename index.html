@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+
+  <title>Catch-up TV & More</title>
+
+  <meta name="author" content="Catch-up TV & More devs" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Catch-up TV & More - Kodi addon that brings together all the videos of the various services and channels of catch-up TV. Furthermore, this plugin allows you to quickly access the videos and content offered by certain websites." href="/feed.xml" />
+
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133471411-1"></script>
+    <script>
+          window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-133471411-1');
+</script>
+
+
+  
+
+  
+
+
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="Catch-up TV & More" />
+  
+
+   
+  <meta property="og:description" content="{% translate_file index.md %}">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="https://catch-up-tv-and-more.github.io/" />
+  <link rel="canonical" href="https://catch-up-tv-and-more.github.io/" />
+  
+
+  
+
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="Catch-up TV & More" />
+  
+
+  
+  <meta name="twitter:description" content="{% translate_file index.md %}">
+  
+
+  
+
+  
+
+  
+
+</head>
+
+
+  <body>
+
+    
+
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand" href="https://catch-up-tv-and-more.github.io">Catch-up TV & More</a>
+      
+    </div>
+
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/index">Home</a>
+
+          </li>
+        
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/installation">🔧 Add-on installation</a>
+
+          </li>
+        
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/channels">📺 TV channels</a>
+
+          </li>
+        
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/websites">🎬 Websites</a>
+
+          </li>
+        
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/live_tv_installation">▶️ Live TV installation</a>
+
+          </li>
+        
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/faq">❓ FAQ</a>
+
+          </li>
+        
+      
+
+          <!-- Sylvain modif -->
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">🌎 Language</a>
+            <div class="navlinks-children">
+              
+                
+              
+                
+                  
+                    <a href="/fr/" >fr</a>
+                  
+                  
+                  
+                  
+                  
+                  
+                
+              
+            </div>
+          </li>
+          <!-- Fin Sylvain modif -->
+
+
+      </ul>
+    </div>
+
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-heading">
+          <h1>Catch-up TV & More</h1>
+		  
+		  
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <p><img src="/img/logo.png" alt="addon_logo" title="Catch-up TV &amp; More" /></p>
+
+<h1 id="description">Description</h1>
+
+<p>Catch-Up TV &amp; More is a video addon for the Kodi media center (former XBMC). This plugin brings together all the videos of the various services and channels of catch-up TV. Furthermore, this addon allows you to quickly access the videos and content offered by certain websites.</p>
+
+<p>Catch-Up TV &amp; More is compatible with Jarvis (16), Krypton (17), Leia (18) and Matrix (19) Kodi versions, however the Jarvis version is deprecated and is no longer updated.</p>
+
+<h1 id="bugs-and-improvements">Bugs and improvements</h1>
+
+<p>Bug returns, suggestions for improvements or content additions are welcome via a GitHub issue or e-mail.</p>
+
+<p>Similarly, if you want to participate in the development of the add-on do not hesitate to propose your pull request.</p>
+
+<h1 id="forums">Forums</h1>
+
+<ul>
+  <li><strong>French</strong> : <a href="https://forum.mpdb.tv/index.php/topic,35713.0.html">Forum MPDB.tv</a></li>
+  <li><strong>English</strong> : <a href="https://forum.kodi.tv/showthread.php?tid=307107">Forum.kodi.tv</a></li>
+</ul>
+
+	    
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links"><li><a href="mailto:catch.up.tv.and.more@gmail.com" title="Email me"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Email me</span>
+              </a>
+            </li><li><a href="https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">GitHub</span>
+              </a>
+            </li></ul>
+      <p class="copyright text-muted">
+      Catch-up TV & More devs
+      &nbsp;&bull;&nbsp;
+      2020
+
+      
+      &nbsp;&bull;&nbsp;
+      <a href="https://catch-up-tv-and-more.github.io">Catch-up-TV-and-More.github.io</a>
+      
+
+      
+      </p>
+          <!-- Please don't remove this, keep my open source work credited :) -->
+    <p class="theme-by text-muted">
+      Theme by
+      <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+    </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+  
+  </body>
+</html>

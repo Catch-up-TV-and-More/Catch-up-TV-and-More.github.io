@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+
+  <title>❓ FAQ</title>
+
+  <meta name="author" content="Catch-up TV & More devs" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Catch-up TV & More - Kodi addon that brings together all the videos of the various services and channels of catch-up TV. Furthermore, this plugin allows you to quickly access the videos and content offered by certain websites." href="/feed.xml" />
+
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133471411-1"></script>
+    <script>
+          window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-133471411-1');
+</script>
+
+
+  
+
+  
+
+
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="❓ FAQ" />
+  
+
+   
+  <meta property="og:description" content="{% translate_file faq.md %}">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="https://catch-up-tv-and-more.github.io/faq/" />
+  <link rel="canonical" href="https://catch-up-tv-and-more.github.io/faq/" />
+  
+
+  
+
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="❓ FAQ" />
+  
+
+  
+  <meta name="twitter:description" content="{% translate_file faq.md %}">
+  
+
+  
+
+  
+
+  
+
+</head>
+
+
+  <body>
+
+    
+
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand" href="https://catch-up-tv-and-more.github.io">Catch-up TV & More</a>
+      
+    </div>
+
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/index">Home</a>
+
+          </li>
+        
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/installation">🔧 Add-on installation</a>
+
+          </li>
+        
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/channels">📺 TV channels</a>
+
+          </li>
+        
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/websites">🎬 Websites</a>
+
+          </li>
+        
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/live_tv_installation">▶️ Live TV installation</a>
+
+          </li>
+        
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/faq">❓ FAQ</a>
+
+          </li>
+        
+      
+
+          <!-- Sylvain modif -->
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">🌎 Language</a>
+            <div class="navlinks-children">
+              
+                
+              
+                
+                  
+                    <a href="/fr/faq/" >fr</a>
+                  
+                  
+                  
+                  
+                  
+                  
+                
+              
+            </div>
+          </li>
+          <!-- Fin Sylvain modif -->
+
+
+      </ul>
+    </div>
+
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-heading">
+          <h1>❓ FAQ</h1>
+		  
+		  
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <h1 id="summary">Summary</h1>
+
+<ul>
+  <li><a href="#i-issues-related-to-youtube-dl">I. Issues related to youtube-dl</a></li>
+</ul>
+
+<h1 id="i-issues-related-to-youtube-dl">I. Issues related to youtube-dl</h1>
+
+<p>In Catch-Up TV &amp; More, we use the add-on <strong>script.module.youtube-dl</strong> for two cases:</p>
+<ul>
+  <li>Download mode (Download catch-up TV and website contents)</li>
+  <li>Play contents hosted by youtube.com, dailymotion.com, vimeo.com, …</li>
+</ul>
+
+<p>The add-on <strong>script.module.youtube-dl</strong> (developped by Ruuk) is a Kodi wrapper of the well known application <strong>youtube-dl</strong>.</p>
+
+<blockquote>
+  <ul>
+    <li><strong>script.module.youtube-dl:</strong> <a href="https://github.com/ruuk/script.module.youtube.dl/">https://github.com/ruuk/script.module.youtube.dl/</a></li>
+    <li><strong>youtube-dl:</strong> <a href="https://github.com/ytdl-org/youtube-dl">https://github.com/ytdl-org/youtube-dl</a></li>
+  </ul>
+</blockquote>
+
+<p>It is updated time to time (maybe 4 times a year) so it might happens some issues.</p>
+
+<p>If you have a notification indicating an issue with youtube-dl during playing one content with Catch-up TV &amp; More and if this same content is playable in your browser. You can try the workaround below.
+This <strong>workaround</strong> will allow to update the files of the last version of <strong>youtube-dl</strong> into the add-on <strong>script.module.youtube-dl</strong>.</p>
+
+<p>This add-on is located in the <code class="highlighter-rouge">addons</code> folder of Kodi.
+The location of this folder depends on your platform:</p>
+<ul>
+  <li><strong>Windows:</strong> <code class="highlighter-rouge">C:\Users\[user]\AppData\Roaming\Kodi\addons</code></li>
+  <li><strong>Linux:</strong> <code class="highlighter-rouge">/home/[user]/.kodi/addons</code></li>
+  <li><strong>macOS:</strong> <code class="highlighter-rouge">/Users/[user]/Library/Application Support/Kodi/addons</code></li>
+  <li><strong>Android:</strong> <code class="highlighter-rouge">/sdcard/Android/data/org.xbmc.kodi/files/.kodi/addons</code></li>
+  <li><strong>LibreELEC:</strong> <code class="highlighter-rouge">/storage/.kodi/addons</code></li>
+  <li><strong>Shield Android TV:</strong> <code class="highlighter-rouge">/internal/Android/data/org.xbmc.kodi/files/.kodi/addons</code></li>
+  <li><strong>Amazon Fire:</strong> <code class="highlighter-rouge">/External storage/Android/Data/org.xbmc.kodi/files/.kodi/addon</code></li>
+</ul>
+
+<p>After finding this folder, you need to remove all files and directories presents in the folder <code class="highlighter-rouge">addons/script.module.youtube.dl/lib/youtube_dl</code>.</p>
+
+<p>Then, go to this URL <a href="https://github.com/ytdl-org/youtube-dl/releases">https://github.com/ytdl-org/youtube-dl/releases</a> to download the last release of <strong>youtube-dl</strong>. The file to download is <em>“Source code (zip)”</em>. Open the downloaded zip file, go to the folder <em>“youtube_dl”</em> and copy/paste all contains of this folder into the folder <code class="highlighter-rouge">addons/script.module.youtube.dl/lib/youtube_dl</code>.</p>
+
+<p>Finally, you can try again to play the content. If the issue is still present do not hesitate to open an issue at the URL <a href="https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore/issues">https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore/issues</a>.</p>
+
+	    
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links"><li><a href="mailto:catch.up.tv.and.more@gmail.com" title="Email me"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Email me</span>
+              </a>
+            </li><li><a href="https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">GitHub</span>
+              </a>
+            </li></ul>
+      <p class="copyright text-muted">
+      Catch-up TV & More devs
+      &nbsp;&bull;&nbsp;
+      2020
+
+      
+      &nbsp;&bull;&nbsp;
+      <a href="https://catch-up-tv-and-more.github.io">Catch-up-TV-and-More.github.io</a>
+      
+
+      
+      </p>
+          <!-- Please don't remove this, keep my open source work credited :) -->
+    <p class="theme-by text-muted">
+      Theme by
+      <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+    </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+  
+  </body>
+</html>
