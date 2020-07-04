@@ -28,13 +28,13 @@ Cette fonctionnalité a plusieurs avantages (liste non exhaustive) :
 
 Un petit aperçu du résultat final une fois que vous aurez suivi ce tutoriel :
 
-![](/img/live_tv_installation/intro1.png)
+![](/img/live_tv_installation/intro1.jpeg)
 
-![](/img/live_tv_installation/intro2.png)
+![](/img/live_tv_installation/intro2.jpeg)
 
-![](/img/live_tv_installation/intro3.png)
+![](/img/live_tv_installation/intro3.jpeg)
 
-![](/img/live_tv_installation/intro4.png)
+![](/img/live_tv_installation/intro4.jpeg)
 
 
 # I. Prérequis
@@ -47,16 +47,16 @@ Enfin, il est faut renseigner vos couples identifiants/mots de passe dans les pa
 
 Ouvrez Catch-up TV & More.
 
-![](/img/live_tv_installation/accounts1.png)
+![](/img/live_tv_installation/accounts1.jpeg)
 
 Accédez aux paramètres de l'add-on en appuyant sur la flèche gauche de votre clavier ou télécommande.
 
-![](/img/live_tv_installation/accounts2.png)
+![](/img/live_tv_installation/accounts2.jpeg)
 
 Enfin, rendez-vous dans l'onglet "Comptes" et renseignez vos identifiants et mots de passe pour les chaînes désirées.
 N'oubliez pas de valider avec le bouton "OK" afin de sauvegarder vos réglages.
 
-![](/img/live_tv_installation/accounts3.png)
+![](/img/live_tv_installation/accounts3.jpeg)
 
 
 # II. PVR "IPTV Simple Client"
@@ -75,33 +75,33 @@ Si Kodi est installé sous Linux, vous devez préalablement installer le PVR sur
 
 Pour installer "PVR IPTV Simple Client", ouvrir "Extensions".
 
-![](/img/live_tv_installation/iptv1.png)
+![](/img/live_tv_installation/iptv1.jpeg)
 
 Choisir en suite le logo du carton ouvert.
 
-![](/img/live_tv_installation/iptv2.png)
+![](/img/live_tv_installation/iptv2.jpeg)
 
 Installer depuis un dépôt.
 
-![](/img/live_tv_installation/iptv3.png)
+![](/img/live_tv_installation/iptv3.jpeg)
 
 Clients enregistreur vidéo.
 
-![](/img/live_tv_installation/iptv4.png)
+![](/img/live_tv_installation/iptv4.jpeg)
 
 Sélectionner PVR IPTV Simple Client.
 
-![](/img/live_tv_installation/iptv5.png)
+![](/img/live_tv_installation/iptv5.jpeg)
 
 Si ce PVR n'est pas déjà installé, installez-le.
 
-![](/img/live_tv_installation/iptv6.png)
+![](/img/live_tv_installation/iptv6.jpeg)
 
 ## 2. Configuration de "PVR IPTV Simple Client"
 
 Il est maintenant nécessaire de le configurer.
 
-![](/img/live_tv_installation/iptv8.png)
+![](/img/live_tv_installation/iptv8.jpeg)
 
 La première chose à faire est de donner à IPTV Simple Client le fichier *m3u* à utiliser, c'est-à-dire la liste des chaînes que vous souhaitez voir apparaître dans la TV de Kodi.
 
@@ -109,7 +109,7 @@ Dans l'onglet "Général" choisissez déjà "Chemin local" pour l'emplacement (1
 
 Enfin, sélectionnez "Chemin de la liste de chaînes M3U" afin d'ouvrir l'explorateur de fichiers de Kodi (2).
 
-![](/img/live_tv_installation/iptv9.png)
+![](/img/live_tv_installation/iptv9.jpeg)
 
 Les fichiers *m3u* de chaque pays sont disponibles dans le dossier `m3u` présent dans le dossier du plugin (`plugin.video.catchuptvandmore`).
 Ce dossier `m3u` est caché par défaut dans Kodi. L'option **Afficher les dossiers et les fichiers cachés** disponible dans "Système > Médias" doit être activée pour avoir accès aux fichiers *m3u*.
@@ -132,7 +132,7 @@ Enfin, rendez-vous dans le dossier `m3u` en suivant ce chemin :
 
 Vous pouvez alors choisir le fichier *m3u* de votre pays favori.
 
-![](/img/live_tv_installation/iptv11.png)
+![](/img/live_tv_installation/iptv11.jpeg)
 
 > Le fichier `live_tv_all.m3u` est une compilation des chaînes de tous les pays disponibles.
 
@@ -141,7 +141,7 @@ Ces fichiers permettent à Kodi d'afficher les horaires et descriptions des prog
 
 Rendez-vous dans l'onglet "Guide TV" des paramètres de PVR IPTV Simple Client et sélectionnez "URL du fichier XML".
 
-![](/img/live_tv_installation/iptv12.png)
+![](/img/live_tv_installation/iptv12.jpeg)
 
 Enfin faites un copier-coller du guide de votre pays (ici encore, le guide `tv_guide_all` est une compilation des guides TV de tous les pays disponibles)
 
@@ -157,11 +157,11 @@ Enfin faites un copier-coller du guide de votre pays (ici encore, le guide `tv_g
 
 Finalement, validez les paramètres.
 
-![](/img/live_tv_installation/iptv13.png)
+![](/img/live_tv_installation/iptv13.jpeg)
 
-![](/img/live_tv_installation/iptv14.png)
+![](/img/live_tv_installation/iptv14.jpeg)
 
-![](/img/live_tv_installation/iptv13.png)
+![](/img/live_tv_installation/iptv13.jpeg)
 
 **Vous devez maintenant redémarrer Kodi**
 
@@ -173,11 +173,11 @@ Vous avez la possibilité de choisir quel groupe de chaînes à afficher dans la
 
 Pour cela, ouvrez "TV" et utiliser la flèche gauche de votre clavier ou télécommande afin d'accéder à la sélection du groupe
 
-![](/img/live_tv_installation/group1.png)
+![](/img/live_tv_installation/group1.jpeg)
 
-![](/img/live_tv_installation/group2.png)
+![](/img/live_tv_installation/group2.jpeg)
 
-![](/img/live_tv_installation/group3.png)
+![](/img/live_tv_installation/group3.jpeg)
 
 
 ## 2. Gestion des chaînes et des groupes
@@ -187,13 +187,13 @@ De même, il est possible de modifier l'ordre des chaînes.
 
 Pour accéder aux gestionnaires des chaînes et groupes suivez simplement les indications ci-dessous.
 
-![](/img/live_tv_installation/manage1.png)
+![](/img/live_tv_installation/manage1.jpeg)
 
-![](/img/live_tv_installation/manage2.png)
+![](/img/live_tv_installation/manage2.jpeg)
 
-![](/img/live_tv_installation/manage3.png)
+![](/img/live_tv_installation/manage3.jpeg)
 
-![](/img/live_tv_installation/manage4.png)
+![](/img/live_tv_installation/manage4.jpeg)
 
 # IV. Enregistrement des directs TV
 
@@ -218,37 +218,37 @@ Les limitations sont:
 
 Télécharger et installer le **repository.primaeval-0.0.2** présent à cette url <https://github.com/primaeval/repository.primaeval/raw/master/zips/repository.primaeval/repository.primaeval-0.0.2.zip>
 
-![](/img/live_tv_installation/iptvrecorder01.png)
+![](/img/live_tv_installation/iptvrecorder01.jpeg)
 
-![](/img/live_tv_installation/iptvrecorder02.png)
+![](/img/live_tv_installation/iptvrecorder02.jpeg)
 
-![](/img/live_tv_installation/iptvrecorder03.png)
+![](/img/live_tv_installation/iptvrecorder03.jpeg)
 
 Aller dans le repertoire où vous avez sauvegarder le fichier zip **repository.primaeval-0.0.2.zip**
 
 Cliquer sur "OK" pour installer ce repository
 
-![](/img/live_tv_installation/iptvrecorder04.png)
+![](/img/live_tv_installation/iptvrecorder04.jpeg)
 
 Installer l'extension IPTV Recoder présente dans la section "Vidéo Extensions" depuis le dépôt de primeval
 
-![](/img/live_tv_installation/iptvrecorder05.png)
+![](/img/live_tv_installation/iptvrecorder05.jpeg)
 
-![](/img/live_tv_installation/iptvrecorder06.png)
+![](/img/live_tv_installation/iptvrecorder06.jpeg)
 
-![](/img/live_tv_installation/iptvrecorder07.png)
+![](/img/live_tv_installation/iptvrecorder07.jpeg)
 
-![](/img/live_tv_installation/iptvrecorder08.png)
+![](/img/live_tv_installation/iptvrecorder08.jpeg)
 
-![](/img/live_tv_installation/iptvrecorder09.png)
+![](/img/live_tv_installation/iptvrecorder09.jpeg)
 
 ## 3. Configuration et utilisation de IPTV Recorder
 
 Accéder aux options de configuration du plugin IPTV Recorder afin de renseigner le chemin de l'application FFMPEG
 
-![](/img/live_tv_installation/iptvrecorder10.png)
+![](/img/live_tv_installation/iptvrecorder10.jpeg)
 
-![](/img/live_tv_installation/iptvrecorder11.png)
+![](/img/live_tv_installation/iptvrecorder11.jpeg)
 
 Vous avez aussi l'option pour renseigner le répertoire de destination des enregistrements. Par défault, le repertoire est **special://temp** (c'est une variable Kodi <https://kodi.wiki/view/Special_protocol>)
 
@@ -256,32 +256,32 @@ Accéder au menu de l'extension pour choisir le programme à enregister
 
 Ouvrir l'extension IPTV Recorder
 
-![](/img/live_tv_installation/iptvrecorder12.png)
+![](/img/live_tv_installation/iptvrecorder12.jpeg)
 
 Aller dans le menu "Groupe de chaînes"
 
-![](/img/live_tv_installation/iptvrecorder13.png)
+![](/img/live_tv_installation/iptvrecorder13.jpeg)
 
 Choisir le programme à enregistrer
 
-![](/img/live_tv_installation/iptvrecorder14.png)
+![](/img/live_tv_installation/iptvrecorder14.jpeg)
 
-![](/img/live_tv_installation/iptvrecorder15.png)
+![](/img/live_tv_installation/iptvrecorder15.jpeg)
 
-![](/img/live_tv_installation/iptvrecorder16.png)
+![](/img/live_tv_installation/iptvrecorder16.jpeg)
 
-![](/img/live_tv_installation/iptvrecorder17.png)
+![](/img/live_tv_installation/iptvrecorder17.jpeg)
 
 Revenir sur le menu principal de IPTV Recorder et aller dans le menu "Enregistrements". Vous trouverez les enregistrements en cours et terminés.
 
-![](/img/live_tv_installation/iptvrecorder18.png)
+![](/img/live_tv_installation/iptvrecorder18.jpeg)
 
-![](/img/live_tv_installation/iptvrecorder19.png)
+![](/img/live_tv_installation/iptvrecorder19.jpeg)
 
 A la fin de l'enregistrement, vous pouvez le retrouver à cet emplacement "**special://temp**" ou via l'extension IPTV Recoder. Vous pouvez ajouter ce répertoire dans les sources vidéo de Kodi.
 
-![](/img/live_tv_installation/iptvrecorder20.png)
+![](/img/live_tv_installation/iptvrecorder20.jpeg)
 
-![](/img/live_tv_installation/iptvrecorder21.png)
+![](/img/live_tv_installation/iptvrecorder21.jpeg)
 
-![](/img/live_tv_installation/iptvrecorder22.png)
+![](/img/live_tv_installation/iptvrecorder22.jpeg)

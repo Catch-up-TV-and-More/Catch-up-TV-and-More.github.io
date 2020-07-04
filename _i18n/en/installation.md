@@ -12,7 +12,7 @@
 # I. Install Kodi
 
 Go to [https://kodi.tv/download](https://kodi.tv/download) and go down to the *Choose your weapon* section to select your operating system.
-![kodi_downloads](/img/installation/kodi_downloads.png "Kodi Download")
+![kodi_downloads](/img/installation/kodi_downloads.jpeg "Kodi Download")
 
 Download Kodi and install it on your computer. Launch it for the first time to make the first settings such as the language of the interface. There are a lot of tutorials on the internet explaining how to configure Kodi.
 
@@ -26,44 +26,44 @@ To allow you to always have the latest available version of Catch-Up TV & More w
 
 Go to the Kodi settings.
 
-![](/img/installation/settings_fr.png)
+![](/img/installation/settings_fr.jpeg)
 
 Then in *File Manager*.
 
-![](/img/installation/files_manager_fr.png)
+![](/img/installation/files_manager_fr.jpeg)
 
 Choose *Add source* and fill in the fields as shown in the image:
 
 * **URL:** https://repo.cecchettosylvain.fr/zip/
 * **Name:** Catch-Up TV & More source
 
-![](/img/installation/3_fr.png)
+![](/img/installation/3_fr.jpeg)
 
-![](/img/installation/4_fr.png)
+![](/img/installation/4_fr.jpeg)
 
 ### 2. Install the official Catch-Up TV & More repository
 
 Allow *Unknown sources*.
 
-![](/img/installation/settings_fr.png)
+![](/img/installation/settings_fr.jpeg)
 
-![](/img/installation/settings_system_fr.png)
+![](/img/installation/settings_system_fr.jpeg)
 
-![](/img/installation/extensions_fr.png)
+![](/img/installation/extensions_fr.jpeg)
 
-![](/img/installation/warning_sources_fr.png)
+![](/img/installation/warning_sources_fr.jpeg)
 
 Install the repository from the zip file.
 
-![](/img/installation/addons_fr.png)
+![](/img/installation/addons_fr.jpeg)
 
-![](/img/installation/addons_2_fr.png)
+![](/img/installation/addons_2_fr.jpeg)
 
-![](/img/installation/install_from_zip_fr.png)
+![](/img/installation/install_from_zip_fr.jpeg)
 
-![](/img/installation/install_from_zip_2_fr.png)
+![](/img/installation/install_from_zip_2_fr.jpeg)
 
-![](/img/installation/install_from_zip_3_fr.png)
+![](/img/installation/install_from_zip_3_fr.jpeg)
 
 Finally, choose the repository to install.
 
@@ -81,17 +81,17 @@ The `release` version only contains the major versions of the plugin ensuring yo
 
 ### 3. Install Catch-Up TV & More from the official repository
 
-![](/img/installation/install_plugin_1.png)
+![](/img/installation/install_plugin_1.jpeg)
 
-![](/img/installation/install_plugin_2.png)
+![](/img/installation/install_plugin_2.jpeg)
 
-![](/img/installation/install_plugin_3.png)
+![](/img/installation/install_plugin_3.jpeg)
 
-![](/img/installation/install_plugin_4.png)
+![](/img/installation/install_plugin_4.jpeg)
 
-![](/img/installation/install_plugin_5.png)
+![](/img/installation/install_plugin_5.jpeg)
 
-![](/img/installation/install_plugin_6.png)
+![](/img/installation/install_plugin_6.jpeg)
 
 Wait during dependencies installation and the plugin installation.
 

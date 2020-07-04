@@ -12,7 +12,7 @@
 # I. Installer Kodi
 
 Rendez-vous sur le page [https://kodi.tv/download](https://kodi.tv/download) et descendez jusqu'à la section *Choose your weapon* afin de sélectionner votre système d'exploitation.
-![kodi_downloads](/img/installation/kodi_downloads.png "Téléchargement Kodi")
+![kodi_downloads](/img/installation/kodi_downloads.jpeg "Téléchargement Kodi")
 
 Téléchargez Kodi et installez le sur votre ordinateur. Lancez-le une première fois afin d'effectuer les premiers paramétrages comme la langue de l'interface. Il existe beaucoup de tutoriels sur internet expliquant comment configurer Kodi.
 
@@ -26,44 +26,44 @@ Pour vous permettre de toujours disposer de la dernière version disponible de C
 
 Rendez-vous dans les réglages Kodi.
 
-![](/img/installation/settings_fr.png)
+![](/img/installation/settings_fr.jpeg)
 
 Puis dans *Gestionnaire de fichiers*.
 
-![](/img/installation/files_manager_fr.png)
+![](/img/installation/files_manager_fr.jpeg)
 
 Choisir *Ajouter une source* et remplir les champs comme indiqué sur l'image :
 
 * **URL :** https://repo.cecchettosylvain.fr/zip/
 * **Nom :** Catch-Up TV & More source
 
-![](/img/installation/3_fr.png)
+![](/img/installation/3_fr.jpeg)
 
-![](/img/installation/4_fr.png)
+![](/img/installation/4_fr.jpeg)
 
 ### 2. Installer le dépôt officiel de Catch-Up TV & More
 
 Autoriser les *Sources inconnues*.
 
-![](/img/installation/settings_fr.png)
+![](/img/installation/settings_fr.jpeg)
 
-![](/img/installation/settings_system_fr.png)
+![](/img/installation/settings_system_fr.jpeg)
 
-![](/img/installation/extensions_fr.png)
+![](/img/installation/extensions_fr.jpeg)
 
-![](/img/installation/warning_sources_fr.png)
+![](/img/installation/warning_sources_fr.jpeg)
 
 Installer le dépôt à partir du fichier zip.
 
-![](/img/installation/addons_fr.png)
+![](/img/installation/addons_fr.jpeg)
 
-![](/img/installation/addons_2_fr.png)
+![](/img/installation/addons_2_fr.jpeg)
 
-![](/img/installation/install_from_zip_fr.png)
+![](/img/installation/install_from_zip_fr.jpeg)
 
-![](/img/installation/install_from_zip_2_fr.png)
+![](/img/installation/install_from_zip_2_fr.jpeg)
 
-![](/img/installation/install_from_zip_3_fr.png)
+![](/img/installation/install_from_zip_3_fr.jpeg)
 
 Il convient enfin de choisir le dépôt à installer.
 
@@ -81,17 +81,17 @@ La version `release` contient uniquement les versions majeures du plugin vous as
 
 ### 3. Installer Catch-Up TV & More depuis le dépôt officiel
 
-![](/img/installation/install_plugin_1.png)
+![](/img/installation/install_plugin_1.jpeg)
 
-![](/img/installation/install_plugin_2.png)
+![](/img/installation/install_plugin_2.jpeg)
 
-![](/img/installation/install_plugin_3.png)
+![](/img/installation/install_plugin_3.jpeg)
 
-![](/img/installation/install_plugin_4.png)
+![](/img/installation/install_plugin_4.jpeg)
 
-![](/img/installation/install_plugin_5.png)
+![](/img/installation/install_plugin_5.jpeg)
 
-![](/img/installation/install_plugin_6.png)
+![](/img/installation/install_plugin_6.jpeg)
 
 Patientez durant l'installation des dépendances et du plugin lui-même.
 
