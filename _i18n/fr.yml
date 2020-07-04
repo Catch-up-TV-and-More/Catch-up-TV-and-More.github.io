@@ -1,0 +1,66 @@
+global:
+  check: ✅
+  no-check: ❌
+  tv: 📺
+  web: 🌍
+  tv-channels: Chaînes TV
+  catch-up-tv-and-more: Catch-up TV & More
+  avaible-channels: 📺 Chaînes disponibles
+  avaible-websites: 🎬 Sites web disponibles
+  installation: Comment installer Catch-up TV & More
+  live_tv_installation: Comment configurer la TV en direct de Kodi
+  faq: ❓ FAQ
+  404-not-found: 404 - Page non trouvée
+  tag-index: Tag Index
+  beta: 🔧
+  dead: 💀
+
+
+page:
+  home: Accueil
+  language: 🌎 Langue
+  channels: 📺 Chaînes TV
+  websites: 🎬 Sites web
+  installation: 🔧 Installation add-on
+  live-tv-installation: ▶️ Configuration TV en direct
+  faq: ❓ FAQ
+
+countries:
+  uk: Angleterre
+  be: Belgique
+  ca: Canada
+  es: Espagne
+  us: Etat Unis d'Amérique
+  fr: France
+  wo: Internationales
+  it: Italie
+  jp: Japon
+  nl: Pays-Bas
+  pl: Pologne
+  ch: Suisse
+  tn: Tunisie
+  cn: Chine
+  cm: Cameroun
+  si: Slovénie
+  et: Éthiopie
+
+channels:
+  logo: Logo
+  name: Nom
+  group: Groupe
+  catch-up-tv: Replay TV
+  live: Direct TV
+  remark: Remarque
+  french-community: Communauté française
+  flemish-community: Communauté flamande
+  german-community: Communauté allemande
+  english-community: Communauté anglaise
+  italian-community: Communauté italienne
+  romansh-community: Communauté romanche
+  rtl-play-account-needed: Compte RTLPlay nécessaire <https://www.rtlplay.be/>
+  vrt-nu-account-needed: Compte VRT NU nécessaire <https://www.vrt.be/vrtnu/>
+  nrj-live-account-needed: Compte NRJ nécessaire pour le direct <https://www.nrj-play.fr/>
+  6play-account-needed: Compte 6play nécessaire <https://www.6play.fr/>
+  abweb-account-needed: Compte ABWeb nécessaire <http://www.abweb.com/BIS-TV-Online/Default.aspx>
+  uktvplay-account-needed: Compte UKTVPlay nécessaire <https://uktvplay.uktv.co.uk/>
+  random-no-sound: Aléatoirement le son ne fonctionne pas

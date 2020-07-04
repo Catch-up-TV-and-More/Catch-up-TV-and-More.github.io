@@ -1,0 +1,67 @@
+global:
+  check: ✅
+  no-check: ❌
+  tv: 📺
+  web: 🌍
+  tv-channels: TV channels
+  catch-up-tv-and-more: Catch-up TV & More
+  avaible-channels: 📺 Available channels
+  avaible-websites: 🎬 Available websites
+  installation: How to install Catch-up TV & More
+  live_tv_installation: How to setup Kodi's Live TV
+  faq: ❓ FAQ
+  404-not-found: 404 - Page not found
+  tag-index: Tag Index
+  beta: 🔧
+  dead: 💀
+
+  
+
+page:
+  home: Home
+  language: 🌎 Language
+  channels: 📺 TV channels
+  websites: 🎬 Websites
+  installation: 🔧 Add-on installation
+  live-tv-installation: ▶️ Live TV installation
+  faq: ❓ FAQ
+
+countries:
+  uk: United Kingdom
+  be: Belgium
+  ca: Canada
+  es: Spain
+  us: United State of America 
+  fr: France
+  wo: International
+  it: Italia
+  jp: Japan
+  nl: Netherlands
+  pl: Poland
+  ch: Switzerland
+  tn: Tunisia
+  cn: China
+  cm: Cameroon
+  si: Slovenia
+  et: Ethiopia
+
+channels:
+  logo: Logo
+  name: Name
+  group: Group
+  catch-up-tv: Catch-up TV
+  live: Live TV
+  remark: Remark
+  french-community: French community
+  flemish-community: Flemish community
+  german-community: German community
+  english-community: English community
+  italian-community: Italian community
+  romansh-community: Romansh Community
+  rtl-play-account-needed: RTLPlay account needed <https://www.rtlplay.be/>
+  vrt-nu-account-needed: VRT NU account needed <https://www.vrt.be/vrtnu/>
+  nrj-live-account-needed: NRJ account needed for live TV <https://www.nrj-play.fr/>
+  6play-account-needed: 6play account needed <https://www.6play.fr/>
+  abweb-account-needed: ABWeb account needed <http://www.abweb.com/BIS-TV-Online/Default.aspx>
+  uktvplay-account-needed: UKTVPlay account needed <https://uktvplay.uktv.co.uk/>
+  random-no-sound: The sound does not work randomly
