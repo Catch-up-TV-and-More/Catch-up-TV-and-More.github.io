@@ -7,22 +7,23 @@
 | {% t channels.logo %} | {% t channels.name %} | {% t channels.catch-up-tv %} | {% t channels.live %} | {% t channels.remark %} |
 |:-----------:|:----------:|:--------:|:---------:|:----------:|:------------:|
 | ![tf1] | TF1 | {% t global.check %}  | {% t global.check %} | |
-| ![france2] | France 2 | {% t global.check %}  | {% t global.check %} | |
-| ![france3] | France 3 | {% t global.check %}  | {% t global.check %} | |
+| ![francetv] | France TV | {% t global.beta %}  | {% t global.no-check %} | France 2 - France 3 - France 4 - France 5 - France Ô - France Info - Okoo - Slash - Spectacle & Cutlure |
+| ![france2] | France 2 | {% t global.no-check %}  | {% t global.check %} | |
+| ![france3] | France 3 | {% t global.no-check %}  | {% t global.check %} | |
 | ![canalplus] | Canal + | {% t global.check %}  | {% t global.check %} | |
-| ![france5] | France 5 | {% t global.check %}  | {% t global.check %} | |
+| ![france5] | France 5 | {% t global.no-check %}  | {% t global.check %} | |
 | ![m6] | M6 | {% t global.check %}  | {% t global.check %} | {% t channels.6play-account-needed %} |
 | ![c8] | C8 | {% t global.check %}  | {% t global.check %} | |
 | ![w9] | W9 | {% t global.check %}  | {% t global.check %} | {% t channels.6play-account-needed %} |
 | ![tmc] | TMC | {% t global.check %}  | {% t global.check %} | |
 | ![tfx] | TFX | {% t global.check %}  | {% t global.check %} | |
 | ![nrj12] | NRJ 12 | {% t global.check %}  | {% t global.check %} | {% t channels.nrj-live-account-needed %} |
-| ![france4] | France 4 | {% t global.check %}  | {% t global.check %} | |
+| ![france4] | France 4 | {% t global.no-check %}  | {% t global.check %} | |
 | ![bfmtv] | BFM TV | {% t global.check %}  | {% t global.check %} | |
 | ![cnews] | CNews | {% t global.check %}  | {% t global.check %} | |
 | ![cstar] | CStar | {% t global.check %}  | {% t global.check %} | |
 | ![gulli] | Gulli | {% t global.check %}  | {% t global.check %} | |
-| ![franceo] | France Ô | {% t global.check %}  | {% t global.check %} | |
+| ![franceo] | France Ô | {% t global.no-check %}  | {% t global.check %} | |
 | ![tf1seriesfilms] | TF1 Séries Films | {% t global.check %}  | {% t global.check %} | |
 | ![lequipe] | L'Équipe | {% t global.check %}  | {% t global.check %} | |
 | ![6ter] | 6ter | {% t global.check %}  | {% t global.check %} | {% t channels.6play-account-needed %} |
@@ -68,7 +69,7 @@
 | ![viavosges] | viàVosges | {% t global.no-check %}  | {% t global.check %} | |
 | ![tl7] | Télévision Loire 7 | {% t global.check %}  | {% t global.check %} | |
 | ![luckyjack] | Lucky Jack | {% t global.no-check %}  | {% t global.check %} | {% t channels.abweb-account-needed %} |
-| ![mblivetv] | Mont Blanc Live TV | {% t global.check %}  | {% t global.dead %} | |
+| ![mblivetv] | Mont Blanc Live TV | {% t global.check %}  | {% t global.no-check %} | |
 | ![tv8montblanc] | 8 Mont-Blanc | {% t global.check %}  | {% t global.check %} | |
 | ![luxetv] | Luxe.TV | {% t global.check %}  | {% t global.no-check %} | |
 | ![alsace20] | Alsace 20 | {% t global.check %}  | {% t global.check %} | |
@@ -89,7 +90,7 @@
 | ![provenceazurtv] | Provence Azur TV | {% t global.no-check %}  | {% t global.check %} | |
 | ![tebesud] | TébéSud | {% t global.check %}  | {% t global.check %} | |
 | ![viamatele] | viàMaTélé | {% t global.no-check %}  | {% t global.check %} | |
-| ![telegrenoble] | TéléGrenoble | {% t global.beta %}  | {% t global.check %} | |
+| ![telegrenoble] | TéléGrenoble | {% t global.check %}  | {% t global.check %} | |
 | ![telenantes] | TéléNantes | {% t global.no-check %}  | {% t global.check %} | |
 | ![bfmlyon] | BFM Lyon | {% t global.check %}  | {% t global.check %} | |
 | ![tlc] | TLC | {% t global.no-check %}  | {% t global.check %} | |
@@ -102,9 +103,13 @@
 | ![franceinter] | France Inter | {% t global.no-check %}  | {% t global.check %} | |
 | ![rtl] | RTL | {% t global.no-check %}  | {% t global.check %} | |
 | ![europe1] | Europe 1 | {% t global.no-check %}  | {% t global.check %} | |
-| ![01net] | 01Net TV | {% t global.check %}  | {% t global.beta %} | |
+| ![01net] | 01Net TV | {% t global.check %}  | {% t global.check %} | |
+| ![equidia] | Equidia | {% t global.no-check %}  | {% t global.beta %} | |
 
 [tf1]: {{ "channels/fr/tf1.png" | prepend: site.images_baseurl }}
+{: style="max-width:50px"}
+
+[francetv]: {{ "channels/fr/francetv.png" | prepend: site.images_baseurl }}
 {: style="max-width:50px"}
 
 [france2]: {{ "channels/fr/france2.png" | prepend: site.images_baseurl }}
@@ -398,6 +403,9 @@
 [01net]: {{ "channels/fr/01net.png" | prepend: site.images_baseurl }}
 {: style="max-width:50px"}
 
+[equidia]: {{ "channels/fr/equidia.png" | prepend: site.images_baseurl }}
+{: style="max-width:50px"}
+
 ### {% t global.web %} Web TV
 
 <!-- Logo - Name - Replay? - Live TV? - Remark -->
@@ -406,10 +414,7 @@
 |:-----------:|:----------:|:--------:|:---------:|:----------:|:------------:|
 | ![francetvsport] | France TV Sport - francetv | {% t global.check %}  | {% t global.check %} | |
 | ![lumni] | Lumni — francetv | {% t global.check %}  | {% t global.no-check %} | |
-| ![slash] | France TV Slash — francetv | {% t global.check %}  | {% t global.no-check %} | |
 | ![jack] | Jack — mycanal | {% t global.check %}  | {% t global.no-check %} | |
-| ![francetvspectaclesetculture] | Spectacles et Culture - francetv | {% t global.check %}  | {% t global.no-check %} | |
-| ![okoo] | Okoo - francetv | {% t global.check %}  | {% t global.no-check %} | |
 | ![m6courses] | M6 Courses - 6play | {% t global.check %}  | {% t global.no-check %} | {% t channels.6play-account-needed %} |
 
 [francetvsport]: {{ "channels/fr/francetvsport.png" | prepend: site.images_baseurl }}
@@ -418,16 +423,7 @@
 [lumni]: {{ "channels/fr/lumni.png" | prepend: site.images_baseurl }}
 {: style="max-width:50px"}
 
-[slash]: {{ "channels/fr/slash.png" | prepend: site.images_baseurl }}
-{: style="max-width:50px"}
-
 [jack]: {{ "channels/fr/jack.png" | prepend: site.images_baseurl }}
-{: style="max-width:50px"}
-
-[francetvspectaclesetculture]: {{ "channels/fr/francetvspectaclesetculture.png" | prepend: site.images_baseurl }}
-{: style="max-width:50px"}
-
-[okoo]: {{ "channels/fr/okoo.png" | prepend: site.images_baseurl }}
 {: style="max-width:50px"}
 
 [m6courses]: {{ "channels/fr/m6courses.png" | prepend: site.images_baseurl }}

@@ -26,10 +26,10 @@
 | ![freesports] | Free Sports | {% t global.no-check %} | {% t global.check %} | |
 | ![stv_plusone] | STV+1 | {% t global.no-check %} | {% t global.check %} | |
 | ![edgesport] | EDGE Sport | {% t global.no-check %} | {% t global.check %} | |
-| ![thepetcollective] | The Pet Collective | {% t global.no-check %} | {% t global.beta %} | |
-| ![failarmy] | Fail Army | {% t global.no-check %} | {% t global.beta %} | |
-| ![qello] | Qello | {% t global.no-check %} | {% t global.beta %} | |
-| ![dust] | DUST | {% t global.no-check %} | {% t global.beta %} | |
+| ![thepetcollective] | The Pet Collective | {% t global.no-check %} | {% t global.check %} | |
+| ![failarmy] | Fail Army | {% t global.no-check %} | {% t global.check %} | |
+| ![qello] | Qello | {% t global.no-check %} | {% t global.check %} | |
+| ![dust] | DUST | {% t global.no-check %} | {% t global.check %} | |
 
 
 [blaze]: {{ "channels/uk/blaze.png" | prepend: site.images_baseurl }}

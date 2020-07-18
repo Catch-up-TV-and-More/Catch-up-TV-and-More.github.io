@@ -17,8 +17,8 @@
 | ![japanetshoppingdx] | ジャパネットチャンネルDX | {% t global.no-check %}  | {% t global.check %} | |
 | ![ktv] | 関西テレビ | {% t global.check %}  | {% t global.no-check %} | |
 | ![weathernewsjp] | 株式会社ウェザーニューズ | {% t global.no-check %}  | {% t global.check %} | |
-| ![tvo] | テレビ大阪株式会社 | {% t global.beta %}  | {% t global.no-check %} | |
-| ![nhk] | NHK | {% t global.beta %}  | {% t global.no-check %} | |
+| ![tvo] | テレビ大阪株式会社 | {% t global.check %}  | {% t global.no-check %} | |
+| ![nhk] | NHK | {% t global.check %}  | {% t global.no-check %} | |
 
 
 [ntv]: {{ "channels/jp/ntv.png" | prepend: site.images_baseurl }}
