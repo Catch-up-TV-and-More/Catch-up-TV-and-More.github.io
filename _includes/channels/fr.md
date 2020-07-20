@@ -105,6 +105,7 @@
 | ![europe1] | Europe 1 | {% t global.no-check %}  | {% t global.check %} | |
 | ![01net] | 01Net TV | {% t global.check %}  | {% t global.check %} | |
 | ![equidia] | Equidia | {% t global.no-check %}  | {% t global.beta %} | |
+| ![bsmart] | B Smart | {% t global.no-check %}  | {% t global.beta %} | |
 
 [tf1]: {{ "channels/fr/tf1.png" | prepend: site.images_baseurl }}
 {: style="max-width:50px"}
@@ -404,6 +405,9 @@
 {: style="max-width:50px"}
 
 [equidia]: {{ "channels/fr/equidia.png" | prepend: site.images_baseurl }}
+{: style="max-width:50px"}
+
+[bsmart]: {{ "channels/fr/bsmart.png" | prepend: site.images_baseurl }}
 {: style="max-width:50px"}
 
 ### {% t global.web %} Web TV
