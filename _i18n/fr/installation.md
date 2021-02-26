@@ -34,7 +34,7 @@ Puis dans *Gestionnaire de fichiers*.
 
 Choisir *Ajouter une source* et remplir les champs comme indiqué sur l'image :
 
-* **URL :** https://repo.cecchettosylvain.fr/zip/
+* **URL :** https://catch-up-tv-and-more.github.io/repo/
 * **Nom :** Catch-Up TV & More source
 
 ![](/img/installation/3_fr.jpeg)
@@ -65,19 +65,15 @@ Installer le dépôt à partir du fichier zip.
 
 ![](/img/installation/install_from_zip_3_fr.jpeg)
 
-Il convient enfin de choisir le dépôt à installer.
+Sélectionnez votre version de Kodi.
 
-* Si vous utilisez **Kodi Jarvis (16)** installez une des versions `repository.catchuptvandmore.jarvis.XXXXXX`.
+Enfin, vous pouvez choisir entre le canal de distribution `release` et `beta`.
 
-* Si vous utilisez **Kodi Krypton (17), Leia (18) ou Matrix (19)** installez une des versions `repository.catchuptvandmore.krypton-leia-matrix.XXXXXX`.
+Si vous choisissez le canal `beta`, Catch-Up TV & More sera mis à jour automatiquement à chaque modification du code du plugin sur Github ; vous aurez ainsi toujours la dernière version et les derniers correctifs/améliorations du plugin. Cependant vous êtes aussi exposé aux différents bugs et instabilités que les dernières améliorations qui ne sont pas encore pleinement testées peuvent engendrer.
 
-Enfin, vous pouvez choisir entre la version `release` et `beta` du dépôt.
+Le canal `release` contient uniquement les versions majeures du plugin vous assurant ainsi une meilleurs stabilité. Cependant la fréquence des mises à jours est moins importante que sur le canal `beta`.
 
-Si vous choisissez la version `beta`, Catch-Up TV & More sera mis à jour automatiquement à chaque modification du code du plugin sur Github ; vous avez ainsi toujours la dernière version et les derniers correctifs/améliorations du plugin. Cependant vous êtes aussi exposé aux différents bugs et instabilités que les dernières améliorations qui ne sont pas encore pleinement testées peuvent engendrer.
-
-La version `release` contient uniquement les versions majeures du plugin vous assurant ainsi une meilleurs stabilité. Cependant la fréquence des mises à jours est moins importante que la version `beta`.
-
-> La version `release` correspond à la branche `master` du dépôt GitHub tandis que la version `beta` correspond à la branche `dev`. 
+> La canal `release` correspond à la branche `master` du dépôt GitHub tandis que le canal `beta` correspond à la branche `dev`.
 
 ### 3. Installer Catch-Up TV & More depuis le dépôt officiel
 

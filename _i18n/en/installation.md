@@ -34,7 +34,7 @@ Then in *File Manager*.
 
 Choose *Add source* and fill in the fields as shown in the image:
 
-* **URL:** https://repo.cecchettosylvain.fr/zip/
+* **URL:** https://catch-up-tv-and-more.github.io/repo/
 * **Name:** Catch-Up TV & More source
 
 ![](/img/installation/3_fr.jpeg)
@@ -65,19 +65,15 @@ Install the repository from the zip file.
 
 ![](/img/installation/install_from_zip_3_fr.jpeg)
 
-Finally, choose the repository to install.
+Choose your Kodi version.
 
-* If you use Kodi **Jarvis (16)** install one of the `repository.catchuptvandmore.jarvis.XXXXXX` versions.
+Finally, you can choose between the `stable` and `beta` distribution channel.
 
-* If you are using **Kodi Krypton (17), Leia (18) or Matrix (19)** install one of the `repository.catchuptvandmore.krypton-leia-matrix.XXXXXX` versions.
+If you choose the `beta` channel, Catch-Up TV & More will be updated automatically each time the plugin code is changed to Github. It means that you will always have the latest version and the latest bug fixes/improvements. However you are also exposed to various bugs and instabilities because the latest improvements of beta versions are not fully tested.
 
-Finally, you can choose between the `release` and` beta` version of the repository.
+The `release` channel only contains the major versions of the plugin ensuring you a better stability. However the frequency of updates is less important than the `beta` channel.
 
-If you choose the beta version, Catch-Up TV & More will be updated automatically each time the plugin code is changed to Github ; you always have the latest version and the latest bug fixes/improvements. However you are also exposed to various bugs and instabilities that the latest improvements that are not yet fully tested can spawn.
-
-The `release` version only contains the major versions of the plugin ensuring you a better stability. However the frequency of updates is less important than the `beta` version.
-
-> The `release` version corresponds to the `master` branch of the GitHub repository while the `beta` version corresponds to the `dev` branch.
+> The `release` channel corresponds to the `master` branch of the GitHub repository while the `beta` channel corresponds to the `dev` branch.
 
 ### 3. Install Catch-Up TV & More from the official repository
 
