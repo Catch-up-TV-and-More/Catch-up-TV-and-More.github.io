@@ -65,15 +65,15 @@ Install the repository from the zip file.
 
 ![](/img/installation/install_from_zip_3_fr.jpeg)
 
-Choose your Kodi version.
+Select the version of Kodi closest to yours (if you are using Kodi Krypton (17), Leia (18) or Matrix (19) choose the `Krypton_(Kodi_17)` folder).
 
 Finally, you can choose between the `stable` and `beta` distribution channel.
 
 If you choose the `beta` channel, Catch-Up TV & More will be updated automatically each time the plugin code is changed to Github. It means that you will always have the latest version and the latest bug fixes/improvements. However you are also exposed to various bugs and instabilities because the latest improvements of beta versions are not fully tested.
 
-The `release` channel only contains the major versions of the plugin ensuring you a better stability. However the frequency of updates is less important than the `beta` channel.
+The `stable` channel only contains the major versions of the plugin ensuring you a better stability. However the frequency of updates is less important than the `beta` channel.
 
-> The `release` channel corresponds to the `master` branch of the GitHub repository while the `beta` channel corresponds to the `dev` branch.
+> The `stable` channel corresponds to the `master` branch of the GitHub repository while the `beta` channel corresponds to the `dev` branch.
 
 ### 3. Install Catch-Up TV & More from the official repository
 
