@@ -1,15 +1,11 @@
-> ⚠️ Pour l'instant cette fonctionnalité a seulement été testé sous Kodi Leia (18)
+> ⚠️ Cette fonctionnalité est uniquement disponible sous Kodi Leia (18) et versions supérieures
 
 # Sommaire
 
 * [Introduction](#introduction)
 * [I. Prérequis](#i-prérequis)
-* [II. PVR "IPTV Simple Client"](#ii-pvr-iptv-simple-client)
-    * [1. Installation de "PVR IPTV Simple Client"](#1-installation-de-pvr-iptv-simple-client)
-    * [2. Configuration de "PVR IPTV Simple Client"](#2-configuration-de-pvr-iptv-simple-client)
-* [III. Organisation des chaînes et groupes de chaînes](#iii-organisation-des-chaînes-et-groupes-de-chaînes)
-    * [1. Sélection du groupe de chaînes](#1-sélection-du-groupe-de-chaînes)
-    * [2. Gestion des chaînes et des groupes](#2-gestion-des-chaînes-et-des-groupes)
+* [II. Installation de IPTV Manager](#ii-installation-de-iptv-manager)
+* [III. Activation des chaînes](#iii-activation-des-chaînes)
 * [IV. Enregistrement des directs TV](#iv-enregistrement-des-directs-tv)
     * [1. Prérequis et Limitations](#1-prérequis-et-limitations)
     * [2. Installation de IPTV Recorder](#2-installation-de-iptv-recorder)
@@ -17,14 +13,14 @@
 
 # Introduction
 
-Depuis la version 0.2.5 de l'add-on il est possible d'utiliser la fonctionnalité "TV" de Kodi afin d'accéder directement aux différents flux TV en direct proposés dans Catch-up TV & More.
+Depuis la version 0.2.30 du plugin il est possible d'accéder aux différents flux de TV en direct proposés dans Catch-up TV & More directement depuis la fonctionnalité "TV" de Kodi.
+Cette fonctionnalité utilise le plugin IPTV Manager ainsi que le PVR IPTV Simple.
 
 Cette fonctionnalité a plusieurs avantages (liste non exhaustive) :
 
 * Profiter pleinement du guide TV géré par Kodi
 * Organiser les différentes chaînes dans des groupes
-* Un seul endroit pour regrouper les chaînes des autres PVR (TNT, Satellite, ...)
-* Si une nouvelle chaîne TV est disponible dans l'add-on via une mise à jour, elle l'est aussi dans la section TV de Kodi
+* Un seul endroit pour regrouper les chaînes des autres PVR et plugin vidéos (TNT, Satellite, ...)
 
 Un petit aperçu du résultat final une fois que vous aurez suivi ce tutoriel :
 
@@ -43,13 +39,13 @@ Si vous ne l'avez pas encore fait, il est nécessaire de procéder à l'installa
 
 Certaines chaînes nécessitent d'avoir un compte utilisateur afin de profiter de leur service (c'est par exemple le cas de 6play).
 Le première chose à faire est de créer le(s) compte(s) nécessaire(s) directement sur le(s) site(s) internet des chaînes concernées.
-Enfin, il est faut renseigner vos couples identifiants/mots de passe dans les paramètres de l'add-on.
+Enfin, il est faut renseigner vos couples identifiants/mots de passe dans les paramètres du plugin.
 
 Ouvrez Catch-up TV & More.
 
 ![](/img/live_tv_installation/accounts1.jpeg)
 
-Accédez aux paramètres de l'add-on en appuyant sur la flèche gauche de votre clavier ou télécommande.
+Accédez aux paramètres du plugin en appuyant sur la flèche gauche de votre clavier ou télécommande.
 
 ![](/img/live_tv_installation/accounts2.jpeg)
 
@@ -59,141 +55,31 @@ N'oubliez pas de valider avec le bouton "OK" afin de sauvegarder vos réglages.
 ![](/img/live_tv_installation/accounts3.jpeg)
 
 
-# II. PVR "IPTV Simple Client"
+# II. Installation de IPTV Manager
 
-## 1. Installation de "PVR IPTV Simple Client"
+Il est d'abord nécessaire d'installer IPTV Manager.
+Pour cela rendez-vous dans les paramètres de Catch-up TV & More dans la section "Intégration TV" et choisissez "Installer le plugin IPTV Manager".
 
-La fonctionnalité "TV" de Kodi nécessite l'utilisation d'un PVR (Client enregistreur vidéo).
-Dans notre cas nous allons utiliser le PVR "IPTV Simple Client".
+![](/img/live_tv_installation/install_iptvmanager_0.jpeg)
 
-> Ce dernier va servir de pont entre la TV de Kodi et l'add-on Catch-up TV & More. <br>
-> En effet, nous allons fournir au PVR un fichier *m3u* contenant une entrée différente pour chaque chaîne disponible dans l'add-on. <br>
-> Chaque entrée de ce fichier associe un nom de chaîne (*par exemple France 2*) au fichier Python correspondant à cette chaîne dans le plugin (*`plugin://plugin.video.catchuptvandmore/main/live_bridge/?item_id=france-2&item_module=resources.lib.channels.fr.francetv`*). <br>
-> Ainsi, quand une chaîne est sélectionnée dans la TV de Kodi, ce dernier appel en fond Catch-up TV & More qui s'occupe de récupérer le flux vidéo avant de le transmettre en retour à Kodi qui ouvre le lecteur avec la chaîne demandée.
-
-Si Kodi est installé sous Linux, vous devez préalablement installer le PVR sur votre système avec la commande `apt-get install kodi-pvr-iptvsimple`.
-
-Pour installer "PVR IPTV Simple Client", ouvrir "Extensions".
-
-![](/img/live_tv_installation/iptv1.jpeg)
-
-Choisir en suite le logo du carton ouvert.
-
-![](/img/live_tv_installation/iptv2.jpeg)
-
-Installer depuis un dépôt.
-
-![](/img/live_tv_installation/iptv3.jpeg)
-
-Clients enregistreur vidéo.
-
-![](/img/live_tv_installation/iptv4.jpeg)
-
-Sélectionner PVR IPTV Simple Client.
-
-![](/img/live_tv_installation/iptv5.jpeg)
-
-Si ce PVR n'est pas déjà installé, installez-le.
-
-![](/img/live_tv_installation/iptv6.jpeg)
-
-## 2. Configuration de "PVR IPTV Simple Client"
-
-Il est maintenant nécessaire de le configurer.
-
-![](/img/live_tv_installation/iptv8.jpeg)
-
-La première chose à faire est de donner à IPTV Simple Client le fichier *m3u* à utiliser, c'est-à-dire la liste des chaînes que vous souhaitez voir apparaître dans la TV de Kodi.
-
-Dans l'onglet "Général" choisissez déjà "Chemin local" pour l'emplacement (1).
-
-Enfin, sélectionnez "Chemin de la liste de chaînes M3U" afin d'ouvrir l'explorateur de fichiers de Kodi (2).
-
-![](/img/live_tv_installation/iptv9.jpeg)
-
-Les fichiers *m3u* de chaque pays sont disponibles dans le dossier `m3u` présent dans le dossier du plugin (`plugin.video.catchuptvandmore`).
-Ce dossier `m3u` est caché par défaut dans Kodi. L'option **Afficher les dossiers et les fichiers cachés** disponible dans "Système > Médias" doit être activée pour avoir accès aux fichiers *m3u*.
-
-Pour ce rendre dans le dossier `addons` de Kodi le chemin dépend de votre plate-forme :
-
-* **Windows :** `C:\Users\[user]\AppData\Roaming\Kodi\addons`
-* **Linux :** `/home/[user]/.kodi/addons`
-* **macOS :** `/Users/[user]/Library/Application Support/Kodi/addons`
-* **Android :** `/sdcard/Android/data/org.xbmc.kodi/files/.kodi/addons`
-* **LibreELEC :** `/storage/.kodi/addons`
-* **Shield Android TV:** `/internal/Android/data/org.xbmc.kodi/files/.kodi/addons`
-* **Amazon Fire:** `/External storage/Android/Data/org.xbmc.kodi/files/.kodi/addon`
-
-Pour les autres cas, vous trouverez votre *"special://home"* [ici](https://kodi.wiki/view/Special_protocol#Default_OS_mappings).
-
-Enfin, rendez-vous dans le dossier `m3u` en suivant ce chemin :
-
-* `plugin.video.catchuptvandmore/resources/m3u`
-
-Vous pouvez alors choisir le fichier *m3u* de votre pays favori.
-
-![](/img/live_tv_installation/iptv11.jpeg)
-
-> Le fichier `live_tv_all.m3u` est une compilation des chaînes de tous les pays disponibles.
-
-Certains pays disposent de guides TV sous la forme de fichiers XMLTV.
-Ces fichiers permettent à Kodi d'afficher les horaires et descriptions des programmes de vos chaînes TV.
-
-Rendez-vous dans l'onglet "Guide TV" des paramètres de PVR IPTV Simple Client et sélectionnez "URL du fichier XML".
-
-![](/img/live_tv_installation/iptv12.jpeg)
-
-Enfin faites un copier-coller du guide de votre pays (ici encore, le guide `tv_guide_all` est une compilation des guides TV de tous les pays disponibles)
-
-* **France :** `http://bit.ly/tvguidefr`
-* **Belgique :** `http://bit.ly/tvguidebe`
-* **Italie:** `http://bit.ly/tvguideit`
-* **Royaume-Uni:** `http://bit.ly/tvguideunitedkingdom`
-* **Tous les pays disponibles :** `http://bit.ly/tvguideall`
-
-> Les programmes ne sont pas forcément disponibles pour toutes les chaînes
-
-> Si le fuseau horaire du fichier XMLTV est différent du votre, vous pouvez l'ajuster grâce à l'option "Différé du guide des programmes"
-
-Finalement, validez les paramètres.
-
-![](/img/live_tv_installation/iptv13.jpeg)
-
-![](/img/live_tv_installation/iptv14.jpeg)
-
-![](/img/live_tv_installation/iptv13.jpeg)
-
-**Vous devez maintenant redémarrer Kodi**
-
-# III. Organisation des chaînes et groupes de chaînes
-
-## 1. Sélection du groupe de chaînes
-
-Vous avez la possibilité de choisir quel groupe de chaînes à afficher dans la TV de Kodi.
-
-Pour cela, ouvrez "TV" et utiliser la flèche gauche de votre clavier ou télécommande afin d'accéder à la sélection du groupe
-
-![](/img/live_tv_installation/group1.jpeg)
-
-![](/img/live_tv_installation/group2.jpeg)
-
-![](/img/live_tv_installation/group3.jpeg)
+![](/img/live_tv_installation/install_iptvmanager_1.jpeg)
 
 
-## 2. Gestion des chaînes et des groupes
+# III. Activation des chaînes
 
-Vous pouvez aussi modifier et/ou masquer les différents groupes de chaînes.
-De même, il est possible de modifier l'ordre des chaînes.
+Une fois IPTV Manager installé, retournez dans les paramètres de Catch-up TV & More afin de sélectionner les chaînes que vous souhaitez voir apparaître dans la section TV de Kodi.
+Cela se passe dans la section "Intégration TV" en choisissant "Sélectionner les chaînes TV à activer".
+N'oubliez pas de sauvegarder vos paramètres en cliquant sur les boutons "OK".
 
-Pour accéder aux gestionnaires des chaînes et groupes suivez simplement les indications ci-dessous.
+![](/img/live_tv_installation/select_channels_0.jpeg)
 
-![](/img/live_tv_installation/manage1.jpeg)
+![](/img/live_tv_installation/select_channels_1.jpeg)
 
-![](/img/live_tv_installation/manage2.jpeg)
 
-![](/img/live_tv_installation/manage3.jpeg)
+Si vos chaînes n'apparaissent toujours pas dans la section "TV" de Kodi vous pouvez effectuer les étapes suivantes dans les réglages d'IPTV Manager :
 
-![](/img/live_tv_installation/manage4.jpeg)
+1. "IPTV Simple" --> "Configure IPTV Simple automatically..."
+2. "Channels" --> "Refresh channels and guide now..."
 
 # IV. Enregistrement des directs TV
 

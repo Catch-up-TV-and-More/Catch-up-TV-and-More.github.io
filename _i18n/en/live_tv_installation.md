@@ -1,15 +1,11 @@
-> ⚠️ For the moment this functionality has only been tested under Kodi Leia (18)
+> ⚠️ This feature is only available on Kodi Leia (18) version and above.
 
 # Summary
 
 * [Introduction](#introduction)
 * [I. Prerequisites](#i-prerequisites)
-* [II. PVR "IPTV Simple Client"](#ii-pvr-iptv-simple-client)
-    * [1. Installing "PVR IPTV Simple Client"](#1-installing-pvr-iptv-simple-client)
-    * [2. Configuring "PVR IPTV Simple Client"](#2-configuring-pvr-iptv-simple-client)
-* [III. Organization of channels and groups of channels](#iii-organization-of-channels-and-groups-of-channels)
-    * [1. Selecting the channels group](#1-selecting-the-channels-group)
-    * [2. Managing channels and groups](#2-managing-channels-and-groups)
+* [II. Installing "IPTV Manager"](#ii-installing-iptv-manager)
+* [III. Enable channels](#iii-enable-channels)
 * [IV. Recording Lives TV](#iv-recording-lives-tv)
     * [1. Prerequisites and limitations](#1-prerequisites-and-limitations)
     * [2. Installing "IPTV Recorder"](#2-installing-iptv-recorder)
@@ -17,14 +13,15 @@
 
 # Introduction
 
-Since version 0.2.5 of the add-on it is possible to use the "TV" feature of Kodi to directly access the different live TV streams offered in Catch-up TV & More.
+Since version 0.2.30 of the addon it is possible to access the different live TV streams offered in Catch-up TV & More directly from the Kodi "Live TV" feature.
+This feature uses the IPTV Manager addon as well as the PVR IPTV Simple.
+
 
 This feature has several advantages (non-exhaustive list):
 
 * Take full advantage of the TV guide managed by Kodi
 * Organize different channels into groups
-* One place to group the channels of other PVR (TNT, Satellite, ...)
-* If a new TV channel is available in the add-on via an update, it is also available in the TV section of Kodi
+* One place to group the channels of other PVR and video addons (TNT, Satellite, ...)
 
 A preview of the final result once you have followed this tutorial:
 
@@ -43,7 +40,7 @@ If you have not already done so, it is necessary to proceed with the installatio
 
 Some channels require to have a user account to access their service.
 The first thing to do is to create the accounts necessaries directly on the websites of concerned channels.
-Finally, it is required to fill your credentials in the parameters of the add-on.
+Finally, it is required to fill your credentials in the parameters of the addon.
 
 Open Catch-up TV & More.
 
@@ -58,140 +55,30 @@ Do not forget to confirm with the "OK" button to save your settings.
 
 ![](/img/live_tv_installation/accounts3.jpeg)
 
-# II. PVR "IPTV Simple Client"
+# II. Installing "IPTV Manager"
 
-## 1. Installing "PVR IPTV Simple Client"
+It is first necessary to install IPTV Manager.
+To do this, go to the Catch-up TV & More settings in the "TV Integration" section and choose "Install IPTV Manager add-on".
 
-The "TV" feature of Kodi requires the use of a PVR.
-In our case we will use the PVR "IPTV Simple Client".
+![](/img/live_tv_installation/install_iptvmanager_0.jpeg)
 
-> IPTV Simple Client will serve as a bridge between Kodi TV and the add-on Catch-up TV & More. <br>
-> Indeed, we will provide the PVR a *m3u* file containing entries for each available channel in the add-on. <br>
-> Each entry of this file associates a name of channel (*for example France 2*) with the Python file corresponding to this channel in the plugin (*`plugin://plugin.video.catchuptvandmore/main/live_bridge/?item_id=france-2&item_module=resources.lib.channels.fr.francetv`*). <br>
-> So, when a channel is selected in Kodi TV, this last call in background Catch-up TV & More which deals with recovering the video stream before transmitting it back to Kodi which opens the player with the requested channel .
+![](/img/live_tv_installation/install_iptvmanager_1.jpeg)
 
-If Kodi is installed on Linux, you need to first install the PVR on your system with the command `apt-get install kodi-pvr-iptvsimple`.
 
-To install "PVR IPTV Simple Client", open "Add-ons".
+# III. Enable channels
 
-![](/img/live_tv_installation/iptv1.jpeg)
+Once IPTV Manager is installed, go back to the Catch-up TV & More settings to select the channels you want to appear in the Kodi TV section.
+This is done in the "TV Integration" section by choosing "Select channels to enable".
+Don't forget to save your settings by clicking the "OK" buttons.
 
-Then choose the open cardboard logo.
+![](/img/live_tv_installation/select_channels_0.jpeg)
 
-![](/img/live_tv_installation/iptv2.jpeg)
+![](/img/live_tv_installation/select_channels_1.jpeg)
 
-Install from repository.
+If your channels still do not appear in the "TV" section of Kodi you can perform the following steps in the IPTV Manager settings:
 
-![](/img/live_tv_installation/iptv3.jpeg)
-
-PVR clients.
-
-![](/img/live_tv_installation/iptv4.jpeg)
-
-Select PVR IPTV Simple Client.
-
-![](/img/live_tv_installation/iptv5.jpeg)
-
-If it's not installed, install-it.
-
-![](/img/live_tv_installation/iptv6.jpeg)
-
-## 2. Configuring "PVR IPTV Simple Client"
-
-It is now necessary to configure IPTV Simple Client.
-
-![](/img/live_tv_installation/iptv8.jpeg)
-
-The first thing to do is to give IPTV Simple Client the *m3u* file to use, which is the list of channels you want to appear in Kodi TV.
-
-In the "General" tab choose "Local path" for the location (1).
-
-Finally, select "M3U Play List Path" to open the Kodi File Explorer (2).
-
-![](/img/live_tv_installation/iptv9.jpeg)
-
-The *m3u* files of each country are in the `m3u` folder present in the add-on folder (`plugin.video.catchuptvandmore`).
-This folder `m3u` is hidden by default in Kodi. You need to activate the option **Show hidden files and directories** present "System > Media" to have access to these *m3u* files.
-
-The Kodi `addons` folder depends on your platform:
-
-* **Windows:** `C:\Users\[user]\AppData\Roaming\Kodi\addons`
-* **Linux:** `/home/[user]/.kodi/addons`
-* **macOS:** `/Users/[user]/Library/Application Support/Kodi/addons`
-* **Android:** `/sdcard/Android/data/org.xbmc.kodi/files/.kodi/addons`
-* **LibreELEC:** `/storage/.kodi/addons`
-* **Shield Android TV:** `/internal/Android/data/org.xbmc.kodi/files/.kodi/addons`
-* **Amazon Fire:** `/External storage/Android/Data/org.xbmc.kodi/files/.kodi/addon`
-
-For others, you can find your *"special://home"* [here](https://kodi.wiki/view/Special_protocol#Default_OS_mappings).
-
-Finally, go in the `m3u` folder by following this path:
-
-* `plugin.video.catchuptvandmore/resources/m3u`
-
-Now you can choose the *m3u* file of you favourite country.
-
-![](/img/live_tv_installation/iptv11.jpeg)
-
-> the file `live_tv_all.m3u` contains channels of all available countries.
-
-Some countries have TV guides with XMLTV files.
-These files allow Kodi to display the schedules and program descriptions of your TV channels.
-
-Go to the "EPG Settings" tab of the PVR IPTV Simple Client settings and select "XMLTV URL".
-
-![](/img/live_tv_installation/iptv12.jpeg)
-
-Finally copy and paste your country guide (again, the `tv_guide_all` guide contains all TV guides of all available countries)
-
-* **France:** `http://bit.ly/tvguidefr`
-* **Belgium:** `http://bit.ly/tvguidebe`
-* **Italy:** `http://bit.ly/tvguideit`
-* **United Kingdom:** `http://bit.ly/tvguideunitedkingdom`
-* **All available countries:** `http://bit.ly/tvguideall`
-
-> Programs may not be available for all channels
-
-> If the timezone of the XMLTV file is different from yours, you can adjust it using the "EPG Time Shift" setting
-
-Finally, confirm the settings.
-
-![](/img/live_tv_installation/iptv13.jpeg)
-
-![](/img/live_tv_installation/iptv14.jpeg)
-
-![](/img/live_tv_installation/iptv13.jpeg)
-
-**You must now restart Kodi**
-
-# III. Organization of channels and groups of channels
-
-## 1. Selecting the channels group
-
-You have the option to choose which channel group to display in Kodi TV.
-
-To do this, open "TV" and use the left arrow on your keyboard or remote control to access the group selection
-
-![](/img/live_tv_installation/group1.jpeg)
-
-![](/img/live_tv_installation/group2.jpeg)
-
-![](/img/live_tv_installation/group3.jpeg)
-
-## 2. Managing channels and groups
-
-You can also edit and/or hide the different groups of channels.
-Also, it is possible to change the order of the strings.
-
-To access channel and group managers simply follow the directions below.
-
-![](/img/live_tv_installation/manage1.jpeg)
-
-![](/img/live_tv_installation/manage2.jpeg)
-
-![](/img/live_tv_installation/manage3.jpeg)
-
-![](/img/live_tv_installation/manage4.jpeg)
+1. "IPTV Simple" --> "Configure IPTV Simple automatically..."
+2. "Channels" --> "Refresh channels and guide now..."
 
 # IV. Recording Lives TV
 
