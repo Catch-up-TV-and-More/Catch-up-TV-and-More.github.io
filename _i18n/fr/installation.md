@@ -63,11 +63,7 @@ Installer le dépôt à partir du fichier zip.
 
 ![](/img/installation/install_from_zip_2_fr.jpeg)
 
-![](/img/installation/install_from_zip_3_fr.jpeg)
-
-Sélectionnez la version de Kodi la plus proche de la votre (si vous utilisez Kodi Krypton (17), Leia (18) ou Matrix (19) choisissez le dossier `Krypton_(Kodi_17)`).
-
-Enfin, vous pouvez choisir entre le canal de distribution `stable` et `beta`.
+Choisissez entre le canal de distribution `stable` et `beta`.
 
 Si vous choisissez le canal `beta`, Catch-Up TV & More sera mis à jour automatiquement à chaque modification du code du plugin sur Github ; vous aurez ainsi toujours la dernière version et les derniers correctifs/améliorations du plugin. Cependant vous êtes aussi exposé aux différents bugs et instabilités que les dernières améliorations qui ne sont pas encore pleinement testées peuvent engendrer.
 
