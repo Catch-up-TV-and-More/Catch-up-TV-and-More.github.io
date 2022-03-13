@@ -21,7 +21,7 @@ updates:
  
    # Enable version updates for Bundle
   - package-ecosystem: "bundle"
-    # Look for a `Dockerfile` in the `root` directory
+    # Look for a `Bundle filz` in the `root` directory
     directory: "/"
     # Check for updates once a week
     schedule:
