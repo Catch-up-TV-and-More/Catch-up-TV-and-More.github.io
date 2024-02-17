@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+
+  <title>How to setup Kodi's Live TV</title>
+
+  <meta name="author" content="Catch-up TV & More devs" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Catch-up TV & More - Kodi addon that brings together all the videos of the various services and channels of catch-up TV. Furthermore, this plugin allows you to quickly access the videos and content offered by certain websites." href="/feed.xml" />
+
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133471411-1"></script>
+    <script>
+          window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-133471411-1');
+</script>
+
+
+  
+
+  
+
+
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="How to setup Kodi's Live TV" />
+  
+
+   
+  <meta property="og:description" content="{% translate_file live_tv_installation.md %}">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="https://catch-up-tv-and-more.github.io/live_tv_installation/" />
+  <link rel="canonical" href="https://catch-up-tv-and-more.github.io/live_tv_installation/" />
+  
+
+  
+
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="How to setup Kodi's Live TV" />
+  
+
+  
+  <meta name="twitter:description" content="{% translate_file live_tv_installation.md %}">
+  
+
+  
+
+  
+
+  
+
+</head>
+
+
+  <body>
+
+    
+
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand" href="https://catch-up-tv-and-more.github.io">Catch-up TV & More</a>
+      
+    </div>
+
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/index">Home</a>
+
+          </li>
+        
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/installation">🔧 Add-on installation</a>
+
+          </li>
+        
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/channels">📺 TV channels</a>
+
+          </li>
+        
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/websites">🎬 Websites</a>
+
+          </li>
+        
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/live_tv_installation">▶️ Live TV installation</a>
+
+          </li>
+        
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/faq">❓ FAQ</a>
+
+          </li>
+        
+      
+
+          <!-- Sylvain modif -->
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">🌎 Language</a>
+            <div class="navlinks-children">
+              
+                
+              
+                
+                  
+                    <a href="/fr/live_tv_installation/" >fr</a>
+                  
+                  
+                  
+                  
+                  
+                  
+                
+              
+            </div>
+          </li>
+          <!-- Fin Sylvain modif -->
+
+
+      </ul>
+    </div>
+
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-heading">
+          <h1>How to setup Kodi's Live TV</h1>
+		  
+		  
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <blockquote>
+  <p>⚠️ This feature is only available on Kodi Leia (18) version and above.</p>
+</blockquote>
+
+<h1 id="summary">Summary</h1>
+
+<ul>
+  <li><a href="#introduction">Introduction</a></li>
+  <li><a href="#i-prerequisites">I. Prerequisites</a></li>
+  <li><a href="#ii-installing-iptv-manager">II. Installing “IPTV Manager”</a></li>
+  <li><a href="#iii-enable-channels">III. Enable channels</a></li>
+  <li><a href="#iv-recording-lives-tv">IV. Recording Lives TV</a>
+    <ul>
+      <li><a href="#1-prerequisites-and-limitations">1. Prerequisites and limitations</a></li>
+      <li><a href="#2-installing-iptv-recorder">2. Installing “IPTV Recorder”</a></li>
+      <li><a href="#3-configuring-and-using-iptv-recorder">3. Configuring and using “IPTV Recorder”</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="introduction">Introduction</h1>
+
+<p>Since version 0.2.30 of the addon it is possible to access the different live TV streams offered in Catch-up TV &amp; More directly from the Kodi “Live TV” feature.
+This feature uses the IPTV Manager addon as well as the PVR IPTV Simple.</p>
+
+<p>This feature has several advantages (non-exhaustive list):</p>
+
+<ul>
+  <li>Take full advantage of the TV guide managed by Kodi</li>
+  <li>Organize different channels into groups</li>
+  <li>One place to group the channels of other PVR and video addons (TNT, Satellite, …)</li>
+</ul>
+
+<p>A preview of the final result once you have followed this tutorial:</p>
+
+<p><img src="/img/live_tv_installation/intro1.jpeg" alt="" /></p>
+
+<p><img src="/img/live_tv_installation/intro2.jpeg" alt="" /></p>
+
+<p><img src="/img/live_tv_installation/intro3.jpeg" alt="" /></p>
+
+<p><img src="/img/live_tv_installation/intro4.jpeg" alt="" /></p>
+
+<h1 id="i-prerequisites">I. Prerequisites</h1>
+
+<p>If you have not already done so, it is necessary to proceed with the installation of Catch-up TV &amp; More in order to take advantage of this feature. Just follow this <a href="https://catch-up-tv-and-more.github.io/en/installation/">tutorial</a> before continuing here.</p>
+
+<p>Some channels require to have a user account to access their service.
+The first thing to do is to create the accounts necessaries directly on the websites of concerned channels.
+Finally, it is required to fill your credentials in the parameters of the addon.</p>
+
+<p>Open Catch-up TV &amp; More.</p>
+
+<p><img src="/img/live_tv_installation/accounts1.jpeg" alt="" /></p>
+
+<p>Access the settings of the add-on by pressing the left arrow on your keyboard or remote control.</p>
+
+<p><img src="/img/live_tv_installation/accounts2.jpeg" alt="" /></p>
+
+<p>Finally, go to the “Accounts” tab and fill in your username and password for the desired channels.
+Do not forget to confirm with the “OK” button to save your settings.</p>
+
+<p><img src="/img/live_tv_installation/accounts3.jpeg" alt="" /></p>
+
+<h1 id="ii-installing-iptv-manager">II. Installing “IPTV Manager”</h1>
+
+<p>It is first necessary to install IPTV Manager.
+To do this, go to the Catch-up TV &amp; More settings in the “TV Integration” section and choose “Install IPTV Manager add-on”.</p>
+
+<p><img src="/img/live_tv_installation/install_iptvmanager_0.jpeg" alt="" /></p>
+
+<p><img src="/img/live_tv_installation/install_iptvmanager_1.jpeg" alt="" /></p>
+
+<h1 id="iii-enable-channels">III. Enable channels</h1>
+
+<p>Once IPTV Manager is installed, go back to the Catch-up TV &amp; More settings to select the channels you want to appear in the Kodi TV section.
+This is done in the “TV Integration” section by choosing “Select channels to enable”.
+Don’t forget to save your settings by clicking the “OK” buttons.</p>
+
+<p><img src="/img/live_tv_installation/select_channels_0.jpeg" alt="" /></p>
+
+<p><img src="/img/live_tv_installation/select_channels_1.jpeg" alt="" /></p>
+
+<p>If your channels still do not appear in the “TV” section of Kodi you can perform the following steps in the IPTV Manager settings:</p>
+
+<ol>
+  <li>“IPTV Simple” –&gt; “Configure IPTV Simple automatically…”</li>
+  <li>“Channels” –&gt; “Refresh channels and guide now…”</li>
+</ol>
+
+<h1 id="iv-recording-lives-tv">IV. Recording Lives TV</h1>
+
+<p>The PVR IPTV Simple does not provide the functionnality to record lives TV.
+This part of the documentation will details all steps to add this functionnality easily.
+Other PVR’s exist (like “TVHeadend, …), which offer natively to record lives TV but required a backend deployed to work.</p>
+
+<h2 id="1-prerequisites-and-limitations">1. Prerequisites and limitations</h2>
+
+<p>The list of prerequisites are:</p>
+
+<ul>
+  <li>FFMPEG installed on the operating system used by Kodi (Windows, Linux, Raspbian, libreelec …) - This tutorial will not explain this topic but you can find easily in the internet how to install it if it not present in your environment.</li>
+  <li>The m3u file of Catch-up TV &amp; More configured in the PVR IPTV Simple</li>
+</ul>
+
+<p>Les limitations are:</p>
+
+<ul>
+  <li>IPTV Recorder does not permit to block the standby mode of Kodi instance during a recording ongoing or to wake up Kodi instance when a recording will start.</li>
+  <li>On Android, the deployement of FFMPEG is difficult. It is not present by default on the Play Store.</li>
+  <li>IPTV Recorder does not permit to record lives TV protected by DRM. If you test to record it, Kodi instance is stuck in some way and you may need to kill it.</li>
+</ul>
+
+<h2 id="2-installing-iptv-recorder">2. Installing “IPTV Recorder”</h2>
+
+<p>Download et install the repository <strong>repository.primaeval-0.0.2</strong> present at this url <a href="https://github.com/primaeval/repository.primaeval/raw/master/zips/repository.primaeval/repository.primaeval-0.0.2.zip">https://github.com/primaeval/repository.primaeval/raw/master/zips/repository.primaeval/repository.primaeval-0.0.2.zip</a></p>
+
+<p><img src="/img/live_tv_installation/iptvrecorder01.jpeg" alt="" /></p>
+
+<p><img src="/img/live_tv_installation/iptvrecorder02.jpeg" alt="" /></p>
+
+<p><img src="/img/live_tv_installation/iptvrecorder03.jpeg" alt="" /></p>
+
+<p>Go to the directory where this zip file <strong>repository.primaeval-0.0.2.zip</strong> is stored</p>
+
+<p>Click on “OK” to install this repository</p>
+
+<p><img src="/img/live_tv_installation/iptvrecorder04.jpeg" alt="" /></p>
+
+<p>Install the add-on IPTV Recoder available on “Video Add-ons” from this newly installed repository.</p>
+
+<p><img src="/img/live_tv_installation/iptvrecorder05.jpeg" alt="" /></p>
+
+<p><img src="/img/live_tv_installation/iptvrecorder06.jpeg" alt="" /></p>
+
+<p><img src="/img/live_tv_installation/iptvrecorder07.jpeg" alt="" /></p>
+
+<p><img src="/img/live_tv_installation/iptvrecorder08.jpeg" alt="" /></p>
+
+<p><img src="/img/live_tv_installation/iptvrecorder09.jpeg" alt="" /></p>
+
+<h2 id="3-configuring-and-using-iptv-recorder">3. Configuring and using “IPTV Recorder”</h2>
+
+<p>Go to the settings of the add-on “IPTV Recorder” to fill the path of the executable of FFMPEG</p>
+
+<p><img src="/img/live_tv_installation/iptvrecorder10.jpeg" alt="" /></p>
+
+<p><img src="/img/live_tv_installation/iptvrecorder11.jpeg" alt="" /></p>
+
+<p>You have also the setting of the path where the recording will be stored. By default, the repository is <strong>special://temp</strong> (It is a variable of Kodi <a href="https://kodi.wiki/view/Special_protocol">https://kodi.wiki/view/Special_protocol</a>)</p>
+
+<p>Go to the menu of this add-on to choose the program to record</p>
+
+<p>Open the add-on “IPTV Recorder”</p>
+
+<p><img src="/img/live_tv_installation/iptvrecorder12.jpeg" alt="" /></p>
+
+<p>Go to “Channels Group”</p>
+
+<p><img src="/img/live_tv_installation/iptvrecorder13.jpeg" alt="" /></p>
+
+<p>Choose the program to record</p>
+
+<p><img src="/img/live_tv_installation/iptvrecorder14.jpeg" alt="" /></p>
+
+<p><img src="/img/live_tv_installation/iptvrecorder15.jpeg" alt="" /></p>
+
+<p><img src="/img/live_tv_installation/iptvrecorder16.jpeg" alt="" /></p>
+
+<p><img src="/img/live_tv_installation/iptvrecorder17.jpeg" alt="" /></p>
+
+<p>Go back to the principal menu of “IPTV Recorder” and go to the “Recordings” menu. You will find all recordings in progress and finished.</p>
+
+<p><img src="/img/live_tv_installation/iptvrecorder18.jpeg" alt="" /></p>
+
+<p><img src="/img/live_tv_installation/iptvrecorder19.jpeg" alt="" /></p>
+
+<p>At the end of the recording, you will find it at this place “<strong>special://temp</strong>” (if not changed previously) or throught the add-on “IPTV Recoder”. You could add this directory to the video sources of Kodi instance.</p>
+
+<p><img src="/img/live_tv_installation/iptvrecorder20.jpeg" alt="" /></p>
+
+<p><img src="/img/live_tv_installation/iptvrecorder21.jpeg" alt="" /></p>
+
+<p><img src="/img/live_tv_installation/iptvrecorder22.jpeg" alt="" /></p>
+
+	    
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links"><li><a href="mailto:catch.up.tv.and.more@gmail.com" title="Email me"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Email me</span>
+              </a>
+            </li><li><a href="https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">GitHub</span>
+              </a>
+            </li></ul>
+      <p class="copyright text-muted">
+      Catch-up TV & More devs
+      &nbsp;&bull;&nbsp;
+      2024
+
+      
+      &nbsp;&bull;&nbsp;
+      <a href="https://catch-up-tv-and-more.github.io">Catch-up-TV-and-More.github.io</a>
+      
+
+      
+      </p>
+          <!-- Please don't remove this, keep my open source work credited :) -->
+    <p class="theme-by text-muted">
+      Theme by
+      <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+    </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+  
+  </body>
+</html>
